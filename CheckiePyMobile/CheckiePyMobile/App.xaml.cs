@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using CheckiePyMobile.Views;
 using Xamarin.Forms;
 
 namespace CheckiePyMobile
@@ -13,7 +9,7 @@ namespace CheckiePyMobile
         {
             InitializeComponent();
 
-            MainPage = new CheckiePyMobile.MainPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
