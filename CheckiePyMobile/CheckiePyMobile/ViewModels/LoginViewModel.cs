@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Input;
 using CheckiePyMobile.Services;
+using CheckiePyMobile.Views;
 using Xamarin.Forms;
 
 namespace CheckiePyMobile.ViewModels
@@ -50,7 +51,7 @@ namespace CheckiePyMobile.ViewModels
         public void FinishAuthentication(string token)
         {
             _networkService.Token = token;
-            // TODO: Redirect to code styles / repositories
+            Application.Current.MainPage = new MainPage();
         }
     }
 }

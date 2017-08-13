@@ -6,7 +6,8 @@
         <StackLayout>
             <Button Text="Log in with GitHub"
                     IsVisible="{Binding IsLoginButtonVisible}"
-                    Command="{Binding LoginCommand}"/>
+                    Command="{Binding LoginCommand}"
+                    VerticalOptions="CenterAndExpand"/>
             <WebView x:Name="webView"
                      HeightRequest="1000"
                      WidthRequest="1000"
