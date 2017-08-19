@@ -38,6 +38,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\LoggingHandler.cs" />
     <Compile Include="Models\CodeStyleModel.cs" />
     <Compile Include="Models\RepositoryModel.cs" />
     <Compile Include="Models\ResponseModel.cs" />
