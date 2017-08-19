@@ -12,7 +12,7 @@ namespace CheckiePyMobile.Services
 {
     public class NetworkService
     {
-        private readonly HttpClient _client;
+        private HttpClient _client;
 
         private string _baseUrl = "http://acs.uplatform.ru/api";
 
