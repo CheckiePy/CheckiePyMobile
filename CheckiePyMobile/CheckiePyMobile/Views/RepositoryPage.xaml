@@ -8,7 +8,23 @@
                   ItemsSource="{Binding Repositories}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}"/>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Name}"
+                                   TextColor="#868686"
+                                   VerticalOptions="CenterAndExpand"/>
+                            <Button Text="Connect"
+                                    IsVisible="{Binding IsDisconnected}"
+                                    HorizontalOptions="EndAndExpand"
+                                    BackgroundColor="#14dcaf"
+                                    TextColor="White"/>
+                            <Button Text="Disconnect"
+                                    IsVisible="{Binding IsConnected}"
+                                    HorizontalOptions="EndAndExpand"
+                                    BackgroundColor="#d8d8d8"
+                                    TextColor="White"/>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

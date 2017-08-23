@@ -8,7 +8,19 @@
                   ItemsSource="{Binding CodeStyles}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}"/>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Name}"
+                                   TextColor="#868686"
+                                   VerticalOptions="CenterAndExpand"/>
+                            <Button Text="Delete"
+                                    BackgroundColor="#d8d8d8"
+                                    BorderColor="Black"
+                                    BorderWidth="2"
+                                    TextColor="White"
+                                    HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
