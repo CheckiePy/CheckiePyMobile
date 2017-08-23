@@ -13,7 +13,7 @@ namespace CheckiePyMobile.ViewModels
     {
         private Page _page;
 
-        private NetworkService _networkService;
+        private INetworkService _networkService;
 
         private ObservableCollection<RepositoryModel> _repositories;
 
@@ -34,7 +34,7 @@ namespace CheckiePyMobile.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public RepositoryViewModel(Page page, NetworkService networkService)
+        public RepositoryViewModel(Page page, INetworkService networkService)
         {
             _page = page;
             _networkService = networkService;

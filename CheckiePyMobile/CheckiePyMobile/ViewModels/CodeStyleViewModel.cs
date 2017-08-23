@@ -13,7 +13,7 @@ namespace CheckiePyMobile.ViewModels
     {
         private Page _page;
 
-        private NetworkService _networkService;
+        private INetworkService _networkService;
 
         private ObservableCollection<CodeStyleModel> _codeStyles;
 
@@ -34,7 +34,7 @@ namespace CheckiePyMobile.ViewModels
             }
         }
 
-        public CodeStyleViewModel(Page page, NetworkService networkService)
+        public CodeStyleViewModel(Page page, INetworkService networkService)
         {
             _page = page;
             _networkService = networkService;

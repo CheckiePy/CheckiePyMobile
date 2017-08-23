@@ -18,7 +18,7 @@ namespace CheckiePyMobile.ViewModels
 
         private Page _page;
 
-        private NetworkService _networkService;
+        private INetworkService _networkService;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -28,7 +28,7 @@ namespace CheckiePyMobile.ViewModels
 
         public bool IsWebViewVisible => _mode == LoginPageMode.Authentication;
 
-        public LoginViewModel(Page page, NetworkService networkService)
+        public LoginViewModel(Page page, INetworkService networkService)
         {
             _page = page;
             _networkService = networkService;

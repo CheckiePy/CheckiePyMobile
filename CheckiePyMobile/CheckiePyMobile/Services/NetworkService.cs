@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace CheckiePyMobile.Services
 {
-    public class NetworkService
+    public class NetworkService : INetworkService
     {
         private HttpClient _client;
 
@@ -18,7 +18,7 @@ namespace CheckiePyMobile.Services
 
         private string _token;
 
-        public static NetworkService Instance { get; } = new NetworkService();
+        public static INetworkService Instance { get; } = new NetworkService();
 
         public string Token
         {
