@@ -26,6 +26,1823 @@ namespace CheckiePyMobile.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::FAB.Droid.Resource.Animation.abc_fade_in = global::CheckiePyMobile.Droid.Resource.Animation.abc_fade_in;
+			global::FAB.Droid.Resource.Animation.abc_fade_out = global::CheckiePyMobile.Droid.Resource.Animation.abc_fade_out;
+			global::FAB.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::CheckiePyMobile.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::FAB.Droid.Resource.Animation.abc_popup_enter = global::CheckiePyMobile.Droid.Resource.Animation.abc_popup_enter;
+			global::FAB.Droid.Resource.Animation.abc_popup_exit = global::CheckiePyMobile.Droid.Resource.Animation.abc_popup_exit;
+			global::FAB.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CheckiePyMobile.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::FAB.Droid.Resource.Animation.abc_slide_in_bottom = global::CheckiePyMobile.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::FAB.Droid.Resource.Animation.abc_slide_in_top = global::CheckiePyMobile.Droid.Resource.Animation.abc_slide_in_top;
+			global::FAB.Droid.Resource.Animation.abc_slide_out_bottom = global::CheckiePyMobile.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::FAB.Droid.Resource.Animation.abc_slide_out_top = global::CheckiePyMobile.Droid.Resource.Animation.abc_slide_out_top;
+			global::FAB.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::CheckiePyMobile.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::FAB.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::CheckiePyMobile.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::FAB.Droid.Resource.Animation.design_fab_in = global::CheckiePyMobile.Droid.Resource.Animation.design_fab_in;
+			global::FAB.Droid.Resource.Animation.design_fab_out = global::CheckiePyMobile.Droid.Resource.Animation.design_fab_out;
+			global::FAB.Droid.Resource.Animation.design_snackbar_in = global::CheckiePyMobile.Droid.Resource.Animation.design_snackbar_in;
+			global::FAB.Droid.Resource.Animation.design_snackbar_out = global::CheckiePyMobile.Droid.Resource.Animation.design_snackbar_out;
+			global::FAB.Droid.Resource.Attribute.MediaRouteControllerWindowBackground = global::CheckiePyMobile.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::FAB.Droid.Resource.Attribute.actionBarDivider = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarDivider;
+			global::FAB.Droid.Resource.Attribute.actionBarItemBackground = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarItemBackground;
+			global::FAB.Droid.Resource.Attribute.actionBarPopupTheme = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::FAB.Droid.Resource.Attribute.actionBarSize = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarSize;
+			global::FAB.Droid.Resource.Attribute.actionBarSplitStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::FAB.Droid.Resource.Attribute.actionBarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarStyle;
+			global::FAB.Droid.Resource.Attribute.actionBarTabBarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::FAB.Droid.Resource.Attribute.actionBarTabStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarTabStyle;
+			global::FAB.Droid.Resource.Attribute.actionBarTabTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::FAB.Droid.Resource.Attribute.actionBarTheme = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarTheme;
+			global::FAB.Droid.Resource.Attribute.actionBarWidgetTheme = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::FAB.Droid.Resource.Attribute.actionButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionButtonStyle;
+			global::FAB.Droid.Resource.Attribute.actionDropDownStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionDropDownStyle;
+			global::FAB.Droid.Resource.Attribute.actionLayout = global::CheckiePyMobile.Droid.Resource.Attribute.actionLayout;
+			global::FAB.Droid.Resource.Attribute.actionMenuTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::FAB.Droid.Resource.Attribute.actionMenuTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.actionMenuTextColor;
+			global::FAB.Droid.Resource.Attribute.actionModeBackground = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeBackground;
+			global::FAB.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::FAB.Droid.Resource.Attribute.actionModeCloseDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModeCopyDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModeCutDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModeFindDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModePasteDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModePopupWindowStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::FAB.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModeShareDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::FAB.Droid.Resource.Attribute.actionModeSplitBackground = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::FAB.Droid.Resource.Attribute.actionModeStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeStyle;
+			global::FAB.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::FAB.Droid.Resource.Attribute.actionOverflowButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::FAB.Droid.Resource.Attribute.actionOverflowMenuStyle = global::CheckiePyMobile.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::FAB.Droid.Resource.Attribute.actionProviderClass = global::CheckiePyMobile.Droid.Resource.Attribute.actionProviderClass;
+			global::FAB.Droid.Resource.Attribute.actionViewClass = global::CheckiePyMobile.Droid.Resource.Attribute.actionViewClass;
+			global::FAB.Droid.Resource.Attribute.activityChooserViewStyle = global::CheckiePyMobile.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::FAB.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::CheckiePyMobile.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::FAB.Droid.Resource.Attribute.alertDialogCenterButtons = global::CheckiePyMobile.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::FAB.Droid.Resource.Attribute.alertDialogStyle = global::CheckiePyMobile.Droid.Resource.Attribute.alertDialogStyle;
+			global::FAB.Droid.Resource.Attribute.alertDialogTheme = global::CheckiePyMobile.Droid.Resource.Attribute.alertDialogTheme;
+			global::FAB.Droid.Resource.Attribute.allowStacking = global::CheckiePyMobile.Droid.Resource.Attribute.allowStacking;
+			global::FAB.Droid.Resource.Attribute.arrowHeadLength = global::CheckiePyMobile.Droid.Resource.Attribute.arrowHeadLength;
+			global::FAB.Droid.Resource.Attribute.arrowShaftLength = global::CheckiePyMobile.Droid.Resource.Attribute.arrowShaftLength;
+			global::FAB.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::CheckiePyMobile.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::FAB.Droid.Resource.Attribute.background = global::CheckiePyMobile.Droid.Resource.Attribute.background;
+			global::FAB.Droid.Resource.Attribute.backgroundSplit = global::CheckiePyMobile.Droid.Resource.Attribute.backgroundSplit;
+			global::FAB.Droid.Resource.Attribute.backgroundStacked = global::CheckiePyMobile.Droid.Resource.Attribute.backgroundStacked;
+			global::FAB.Droid.Resource.Attribute.backgroundTint = global::CheckiePyMobile.Droid.Resource.Attribute.backgroundTint;
+			global::FAB.Droid.Resource.Attribute.backgroundTintMode = global::CheckiePyMobile.Droid.Resource.Attribute.backgroundTintMode;
+			global::FAB.Droid.Resource.Attribute.barLength = global::CheckiePyMobile.Droid.Resource.Attribute.barLength;
+			global::FAB.Droid.Resource.Attribute.behavior_hideable = global::CheckiePyMobile.Droid.Resource.Attribute.behavior_hideable;
+			global::FAB.Droid.Resource.Attribute.behavior_overlapTop = global::CheckiePyMobile.Droid.Resource.Attribute.behavior_overlapTop;
+			global::FAB.Droid.Resource.Attribute.behavior_peekHeight = global::CheckiePyMobile.Droid.Resource.Attribute.behavior_peekHeight;
+			global::FAB.Droid.Resource.Attribute.borderWidth = global::CheckiePyMobile.Droid.Resource.Attribute.borderWidth;
+			global::FAB.Droid.Resource.Attribute.borderlessButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::FAB.Droid.Resource.Attribute.bottomSheetDialogTheme = global::CheckiePyMobile.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::FAB.Droid.Resource.Attribute.bottomSheetStyle = global::CheckiePyMobile.Droid.Resource.Attribute.bottomSheetStyle;
+			global::FAB.Droid.Resource.Attribute.buttonBarButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::FAB.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::FAB.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::FAB.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::FAB.Droid.Resource.Attribute.buttonBarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.buttonBarStyle;
+			global::FAB.Droid.Resource.Attribute.buttonPanelSideLayout = global::CheckiePyMobile.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::FAB.Droid.Resource.Attribute.buttonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.buttonStyle;
+			global::FAB.Droid.Resource.Attribute.buttonStyleSmall = global::CheckiePyMobile.Droid.Resource.Attribute.buttonStyleSmall;
+			global::FAB.Droid.Resource.Attribute.buttonTint = global::CheckiePyMobile.Droid.Resource.Attribute.buttonTint;
+			global::FAB.Droid.Resource.Attribute.buttonTintMode = global::CheckiePyMobile.Droid.Resource.Attribute.buttonTintMode;
+			global::FAB.Droid.Resource.Attribute.cardBackgroundColor = global::CheckiePyMobile.Droid.Resource.Attribute.cardBackgroundColor;
+			global::FAB.Droid.Resource.Attribute.cardCornerRadius = global::CheckiePyMobile.Droid.Resource.Attribute.cardCornerRadius;
+			global::FAB.Droid.Resource.Attribute.cardElevation = global::CheckiePyMobile.Droid.Resource.Attribute.cardElevation;
+			global::FAB.Droid.Resource.Attribute.cardMaxElevation = global::CheckiePyMobile.Droid.Resource.Attribute.cardMaxElevation;
+			global::FAB.Droid.Resource.Attribute.cardPreventCornerOverlap = global::CheckiePyMobile.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::FAB.Droid.Resource.Attribute.cardUseCompatPadding = global::CheckiePyMobile.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::FAB.Droid.Resource.Attribute.checkboxStyle = global::CheckiePyMobile.Droid.Resource.Attribute.checkboxStyle;
+			global::FAB.Droid.Resource.Attribute.checkedTextViewStyle = global::CheckiePyMobile.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::FAB.Droid.Resource.Attribute.closeIcon = global::CheckiePyMobile.Droid.Resource.Attribute.closeIcon;
+			global::FAB.Droid.Resource.Attribute.closeItemLayout = global::CheckiePyMobile.Droid.Resource.Attribute.closeItemLayout;
+			global::FAB.Droid.Resource.Attribute.collapseContentDescription = global::CheckiePyMobile.Droid.Resource.Attribute.collapseContentDescription;
+			global::FAB.Droid.Resource.Attribute.collapseIcon = global::CheckiePyMobile.Droid.Resource.Attribute.collapseIcon;
+			global::FAB.Droid.Resource.Attribute.collapsedTitleGravity = global::CheckiePyMobile.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::FAB.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::FAB.Droid.Resource.Attribute.color = global::CheckiePyMobile.Droid.Resource.Attribute.color;
+			global::FAB.Droid.Resource.Attribute.colorAccent = global::CheckiePyMobile.Droid.Resource.Attribute.colorAccent;
+			global::FAB.Droid.Resource.Attribute.colorButtonNormal = global::CheckiePyMobile.Droid.Resource.Attribute.colorButtonNormal;
+			global::FAB.Droid.Resource.Attribute.colorControlActivated = global::CheckiePyMobile.Droid.Resource.Attribute.colorControlActivated;
+			global::FAB.Droid.Resource.Attribute.colorControlHighlight = global::CheckiePyMobile.Droid.Resource.Attribute.colorControlHighlight;
+			global::FAB.Droid.Resource.Attribute.colorControlNormal = global::CheckiePyMobile.Droid.Resource.Attribute.colorControlNormal;
+			global::FAB.Droid.Resource.Attribute.colorPrimary = global::CheckiePyMobile.Droid.Resource.Attribute.colorPrimary;
+			global::FAB.Droid.Resource.Attribute.colorPrimaryDark = global::CheckiePyMobile.Droid.Resource.Attribute.colorPrimaryDark;
+			global::FAB.Droid.Resource.Attribute.colorSwitchThumbNormal = global::CheckiePyMobile.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::FAB.Droid.Resource.Attribute.commitIcon = global::CheckiePyMobile.Droid.Resource.Attribute.commitIcon;
+			global::FAB.Droid.Resource.Attribute.contentInsetEnd = global::CheckiePyMobile.Droid.Resource.Attribute.contentInsetEnd;
+			global::FAB.Droid.Resource.Attribute.contentInsetLeft = global::CheckiePyMobile.Droid.Resource.Attribute.contentInsetLeft;
+			global::FAB.Droid.Resource.Attribute.contentInsetRight = global::CheckiePyMobile.Droid.Resource.Attribute.contentInsetRight;
+			global::FAB.Droid.Resource.Attribute.contentInsetStart = global::CheckiePyMobile.Droid.Resource.Attribute.contentInsetStart;
+			global::FAB.Droid.Resource.Attribute.contentPadding = global::CheckiePyMobile.Droid.Resource.Attribute.contentPadding;
+			global::FAB.Droid.Resource.Attribute.contentPaddingBottom = global::CheckiePyMobile.Droid.Resource.Attribute.contentPaddingBottom;
+			global::FAB.Droid.Resource.Attribute.contentPaddingLeft = global::CheckiePyMobile.Droid.Resource.Attribute.contentPaddingLeft;
+			global::FAB.Droid.Resource.Attribute.contentPaddingRight = global::CheckiePyMobile.Droid.Resource.Attribute.contentPaddingRight;
+			global::FAB.Droid.Resource.Attribute.contentPaddingTop = global::CheckiePyMobile.Droid.Resource.Attribute.contentPaddingTop;
+			global::FAB.Droid.Resource.Attribute.contentScrim = global::CheckiePyMobile.Droid.Resource.Attribute.contentScrim;
+			global::FAB.Droid.Resource.Attribute.controlBackground = global::CheckiePyMobile.Droid.Resource.Attribute.controlBackground;
+			global::FAB.Droid.Resource.Attribute.counterEnabled = global::CheckiePyMobile.Droid.Resource.Attribute.counterEnabled;
+			global::FAB.Droid.Resource.Attribute.counterMaxLength = global::CheckiePyMobile.Droid.Resource.Attribute.counterMaxLength;
+			global::FAB.Droid.Resource.Attribute.counterOverflowTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::FAB.Droid.Resource.Attribute.counterTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.counterTextAppearance;
+			global::FAB.Droid.Resource.Attribute.customNavigationLayout = global::CheckiePyMobile.Droid.Resource.Attribute.customNavigationLayout;
+			global::FAB.Droid.Resource.Attribute.defaultQueryHint = global::CheckiePyMobile.Droid.Resource.Attribute.defaultQueryHint;
+			global::FAB.Droid.Resource.Attribute.dialogPreferredPadding = global::CheckiePyMobile.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::FAB.Droid.Resource.Attribute.dialogTheme = global::CheckiePyMobile.Droid.Resource.Attribute.dialogTheme;
+			global::FAB.Droid.Resource.Attribute.displayOptions = global::CheckiePyMobile.Droid.Resource.Attribute.displayOptions;
+			global::FAB.Droid.Resource.Attribute.divider = global::CheckiePyMobile.Droid.Resource.Attribute.divider;
+			global::FAB.Droid.Resource.Attribute.dividerHorizontal = global::CheckiePyMobile.Droid.Resource.Attribute.dividerHorizontal;
+			global::FAB.Droid.Resource.Attribute.dividerPadding = global::CheckiePyMobile.Droid.Resource.Attribute.dividerPadding;
+			global::FAB.Droid.Resource.Attribute.dividerVertical = global::CheckiePyMobile.Droid.Resource.Attribute.dividerVertical;
+			global::FAB.Droid.Resource.Attribute.drawableSize = global::CheckiePyMobile.Droid.Resource.Attribute.drawableSize;
+			global::FAB.Droid.Resource.Attribute.drawerArrowStyle = global::CheckiePyMobile.Droid.Resource.Attribute.drawerArrowStyle;
+			global::FAB.Droid.Resource.Attribute.dropDownListViewStyle = global::CheckiePyMobile.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::FAB.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::CheckiePyMobile.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::FAB.Droid.Resource.Attribute.editTextBackground = global::CheckiePyMobile.Droid.Resource.Attribute.editTextBackground;
+			global::FAB.Droid.Resource.Attribute.editTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.editTextColor;
+			global::FAB.Droid.Resource.Attribute.editTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.editTextStyle;
+			global::FAB.Droid.Resource.Attribute.elevation = global::CheckiePyMobile.Droid.Resource.Attribute.elevation;
+			global::FAB.Droid.Resource.Attribute.errorEnabled = global::CheckiePyMobile.Droid.Resource.Attribute.errorEnabled;
+			global::FAB.Droid.Resource.Attribute.errorTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.errorTextAppearance;
+			global::FAB.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::FAB.Droid.Resource.Attribute.expanded = global::CheckiePyMobile.Droid.Resource.Attribute.expanded;
+			global::FAB.Droid.Resource.Attribute.expandedTitleGravity = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleGravity;
+			global::FAB.Droid.Resource.Attribute.expandedTitleMargin = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleMargin;
+			global::FAB.Droid.Resource.Attribute.expandedTitleMarginBottom = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::FAB.Droid.Resource.Attribute.expandedTitleMarginEnd = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::FAB.Droid.Resource.Attribute.expandedTitleMarginStart = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::FAB.Droid.Resource.Attribute.expandedTitleMarginTop = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::FAB.Droid.Resource.Attribute.expandedTitleTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::FAB.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::FAB.Droid.Resource.Attribute.fabSize = global::CheckiePyMobile.Droid.Resource.Attribute.fabSize;
+			global::FAB.Droid.Resource.Attribute.fab_colorDisabled = global::CheckiePyMobile.Droid.Resource.Attribute.fab_colorDisabled;
+			global::FAB.Droid.Resource.Attribute.fab_colorNormal = global::CheckiePyMobile.Droid.Resource.Attribute.fab_colorNormal;
+			global::FAB.Droid.Resource.Attribute.fab_colorPressed = global::CheckiePyMobile.Droid.Resource.Attribute.fab_colorPressed;
+			global::FAB.Droid.Resource.Attribute.fab_colorRipple = global::CheckiePyMobile.Droid.Resource.Attribute.fab_colorRipple;
+			global::FAB.Droid.Resource.Attribute.fab_shadow = global::CheckiePyMobile.Droid.Resource.Attribute.fab_shadow;
+			global::FAB.Droid.Resource.Attribute.fab_size = global::CheckiePyMobile.Droid.Resource.Attribute.fab_size;
+			global::FAB.Droid.Resource.Attribute.foregroundInsidePadding = global::CheckiePyMobile.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::FAB.Droid.Resource.Attribute.gapBetweenBars = global::CheckiePyMobile.Droid.Resource.Attribute.gapBetweenBars;
+			global::FAB.Droid.Resource.Attribute.goIcon = global::CheckiePyMobile.Droid.Resource.Attribute.goIcon;
+			global::FAB.Droid.Resource.Attribute.headerLayout = global::CheckiePyMobile.Droid.Resource.Attribute.headerLayout;
+			global::FAB.Droid.Resource.Attribute.height = global::CheckiePyMobile.Droid.Resource.Attribute.height;
+			global::FAB.Droid.Resource.Attribute.hideOnContentScroll = global::CheckiePyMobile.Droid.Resource.Attribute.hideOnContentScroll;
+			global::FAB.Droid.Resource.Attribute.hintAnimationEnabled = global::CheckiePyMobile.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::FAB.Droid.Resource.Attribute.hintEnabled = global::CheckiePyMobile.Droid.Resource.Attribute.hintEnabled;
+			global::FAB.Droid.Resource.Attribute.hintTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.hintTextAppearance;
+			global::FAB.Droid.Resource.Attribute.homeAsUpIndicator = global::CheckiePyMobile.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::FAB.Droid.Resource.Attribute.homeLayout = global::CheckiePyMobile.Droid.Resource.Attribute.homeLayout;
+			global::FAB.Droid.Resource.Attribute.icon = global::CheckiePyMobile.Droid.Resource.Attribute.icon;
+			global::FAB.Droid.Resource.Attribute.iconifiedByDefault = global::CheckiePyMobile.Droid.Resource.Attribute.iconifiedByDefault;
+			global::FAB.Droid.Resource.Attribute.imageButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.imageButtonStyle;
+			global::FAB.Droid.Resource.Attribute.indeterminateProgressStyle = global::CheckiePyMobile.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::FAB.Droid.Resource.Attribute.initialActivityCount = global::CheckiePyMobile.Droid.Resource.Attribute.initialActivityCount;
+			global::FAB.Droid.Resource.Attribute.insetForeground = global::CheckiePyMobile.Droid.Resource.Attribute.insetForeground;
+			global::FAB.Droid.Resource.Attribute.isLightTheme = global::CheckiePyMobile.Droid.Resource.Attribute.isLightTheme;
+			global::FAB.Droid.Resource.Attribute.itemBackground = global::CheckiePyMobile.Droid.Resource.Attribute.itemBackground;
+			global::FAB.Droid.Resource.Attribute.itemIconTint = global::CheckiePyMobile.Droid.Resource.Attribute.itemIconTint;
+			global::FAB.Droid.Resource.Attribute.itemPadding = global::CheckiePyMobile.Droid.Resource.Attribute.itemPadding;
+			global::FAB.Droid.Resource.Attribute.itemTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.itemTextAppearance;
+			global::FAB.Droid.Resource.Attribute.itemTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.itemTextColor;
+			global::FAB.Droid.Resource.Attribute.keylines = global::CheckiePyMobile.Droid.Resource.Attribute.keylines;
+			global::FAB.Droid.Resource.Attribute.layout = global::CheckiePyMobile.Droid.Resource.Attribute.layout;
+			global::FAB.Droid.Resource.Attribute.layoutManager = global::CheckiePyMobile.Droid.Resource.Attribute.layoutManager;
+			global::FAB.Droid.Resource.Attribute.layout_anchor = global::CheckiePyMobile.Droid.Resource.Attribute.layout_anchor;
+			global::FAB.Droid.Resource.Attribute.layout_anchorGravity = global::CheckiePyMobile.Droid.Resource.Attribute.layout_anchorGravity;
+			global::FAB.Droid.Resource.Attribute.layout_behavior = global::CheckiePyMobile.Droid.Resource.Attribute.layout_behavior;
+			global::FAB.Droid.Resource.Attribute.layout_collapseMode = global::CheckiePyMobile.Droid.Resource.Attribute.layout_collapseMode;
+			global::FAB.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::CheckiePyMobile.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::FAB.Droid.Resource.Attribute.layout_keyline = global::CheckiePyMobile.Droid.Resource.Attribute.layout_keyline;
+			global::FAB.Droid.Resource.Attribute.layout_scrollFlags = global::CheckiePyMobile.Droid.Resource.Attribute.layout_scrollFlags;
+			global::FAB.Droid.Resource.Attribute.layout_scrollInterpolator = global::CheckiePyMobile.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::FAB.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::CheckiePyMobile.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::FAB.Droid.Resource.Attribute.listDividerAlertDialog = global::CheckiePyMobile.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::FAB.Droid.Resource.Attribute.listItemLayout = global::CheckiePyMobile.Droid.Resource.Attribute.listItemLayout;
+			global::FAB.Droid.Resource.Attribute.listLayout = global::CheckiePyMobile.Droid.Resource.Attribute.listLayout;
+			global::FAB.Droid.Resource.Attribute.listPopupWindowStyle = global::CheckiePyMobile.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::FAB.Droid.Resource.Attribute.listPreferredItemHeight = global::CheckiePyMobile.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::FAB.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::CheckiePyMobile.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::FAB.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::CheckiePyMobile.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::FAB.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::CheckiePyMobile.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::FAB.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::CheckiePyMobile.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::FAB.Droid.Resource.Attribute.logo = global::CheckiePyMobile.Droid.Resource.Attribute.logo;
+			global::FAB.Droid.Resource.Attribute.logoDescription = global::CheckiePyMobile.Droid.Resource.Attribute.logoDescription;
+			global::FAB.Droid.Resource.Attribute.maxActionInlineWidth = global::CheckiePyMobile.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::FAB.Droid.Resource.Attribute.maxButtonHeight = global::CheckiePyMobile.Droid.Resource.Attribute.maxButtonHeight;
+			global::FAB.Droid.Resource.Attribute.measureWithLargestChild = global::CheckiePyMobile.Droid.Resource.Attribute.measureWithLargestChild;
+			global::FAB.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::FAB.Droid.Resource.Attribute.mediaRouteCastDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::FAB.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::FAB.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteConnectingDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::FAB.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::FAB.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::FAB.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteOffDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteOnDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::FAB.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::CheckiePyMobile.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::FAB.Droid.Resource.Attribute.menu = global::CheckiePyMobile.Droid.Resource.Attribute.menu;
+			global::FAB.Droid.Resource.Attribute.multiChoiceItemLayout = global::CheckiePyMobile.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::FAB.Droid.Resource.Attribute.navigationContentDescription = global::CheckiePyMobile.Droid.Resource.Attribute.navigationContentDescription;
+			global::FAB.Droid.Resource.Attribute.navigationIcon = global::CheckiePyMobile.Droid.Resource.Attribute.navigationIcon;
+			global::FAB.Droid.Resource.Attribute.navigationMode = global::CheckiePyMobile.Droid.Resource.Attribute.navigationMode;
+			global::FAB.Droid.Resource.Attribute.overlapAnchor = global::CheckiePyMobile.Droid.Resource.Attribute.overlapAnchor;
+			global::FAB.Droid.Resource.Attribute.paddingEnd = global::CheckiePyMobile.Droid.Resource.Attribute.paddingEnd;
+			global::FAB.Droid.Resource.Attribute.paddingStart = global::CheckiePyMobile.Droid.Resource.Attribute.paddingStart;
+			global::FAB.Droid.Resource.Attribute.panelBackground = global::CheckiePyMobile.Droid.Resource.Attribute.panelBackground;
+			global::FAB.Droid.Resource.Attribute.panelMenuListTheme = global::CheckiePyMobile.Droid.Resource.Attribute.panelMenuListTheme;
+			global::FAB.Droid.Resource.Attribute.panelMenuListWidth = global::CheckiePyMobile.Droid.Resource.Attribute.panelMenuListWidth;
+			global::FAB.Droid.Resource.Attribute.popupMenuStyle = global::CheckiePyMobile.Droid.Resource.Attribute.popupMenuStyle;
+			global::FAB.Droid.Resource.Attribute.popupTheme = global::CheckiePyMobile.Droid.Resource.Attribute.popupTheme;
+			global::FAB.Droid.Resource.Attribute.popupWindowStyle = global::CheckiePyMobile.Droid.Resource.Attribute.popupWindowStyle;
+			global::FAB.Droid.Resource.Attribute.preserveIconSpacing = global::CheckiePyMobile.Droid.Resource.Attribute.preserveIconSpacing;
+			global::FAB.Droid.Resource.Attribute.pressedTranslationZ = global::CheckiePyMobile.Droid.Resource.Attribute.pressedTranslationZ;
+			global::FAB.Droid.Resource.Attribute.progressBarPadding = global::CheckiePyMobile.Droid.Resource.Attribute.progressBarPadding;
+			global::FAB.Droid.Resource.Attribute.progressBarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.progressBarStyle;
+			global::FAB.Droid.Resource.Attribute.queryBackground = global::CheckiePyMobile.Droid.Resource.Attribute.queryBackground;
+			global::FAB.Droid.Resource.Attribute.queryHint = global::CheckiePyMobile.Droid.Resource.Attribute.queryHint;
+			global::FAB.Droid.Resource.Attribute.radioButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.radioButtonStyle;
+			global::FAB.Droid.Resource.Attribute.ratingBarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.ratingBarStyle;
+			global::FAB.Droid.Resource.Attribute.ratingBarStyleIndicator = global::CheckiePyMobile.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::FAB.Droid.Resource.Attribute.ratingBarStyleSmall = global::CheckiePyMobile.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::FAB.Droid.Resource.Attribute.reverseLayout = global::CheckiePyMobile.Droid.Resource.Attribute.reverseLayout;
+			global::FAB.Droid.Resource.Attribute.rippleColor = global::CheckiePyMobile.Droid.Resource.Attribute.rippleColor;
+			global::FAB.Droid.Resource.Attribute.searchHintIcon = global::CheckiePyMobile.Droid.Resource.Attribute.searchHintIcon;
+			global::FAB.Droid.Resource.Attribute.searchIcon = global::CheckiePyMobile.Droid.Resource.Attribute.searchIcon;
+			global::FAB.Droid.Resource.Attribute.searchViewStyle = global::CheckiePyMobile.Droid.Resource.Attribute.searchViewStyle;
+			global::FAB.Droid.Resource.Attribute.seekBarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.seekBarStyle;
+			global::FAB.Droid.Resource.Attribute.selectableItemBackground = global::CheckiePyMobile.Droid.Resource.Attribute.selectableItemBackground;
+			global::FAB.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::CheckiePyMobile.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::FAB.Droid.Resource.Attribute.showAsAction = global::CheckiePyMobile.Droid.Resource.Attribute.showAsAction;
+			global::FAB.Droid.Resource.Attribute.showDividers = global::CheckiePyMobile.Droid.Resource.Attribute.showDividers;
+			global::FAB.Droid.Resource.Attribute.showText = global::CheckiePyMobile.Droid.Resource.Attribute.showText;
+			global::FAB.Droid.Resource.Attribute.singleChoiceItemLayout = global::CheckiePyMobile.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::FAB.Droid.Resource.Attribute.spanCount = global::CheckiePyMobile.Droid.Resource.Attribute.spanCount;
+			global::FAB.Droid.Resource.Attribute.spinBars = global::CheckiePyMobile.Droid.Resource.Attribute.spinBars;
+			global::FAB.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::CheckiePyMobile.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::FAB.Droid.Resource.Attribute.spinnerStyle = global::CheckiePyMobile.Droid.Resource.Attribute.spinnerStyle;
+			global::FAB.Droid.Resource.Attribute.splitTrack = global::CheckiePyMobile.Droid.Resource.Attribute.splitTrack;
+			global::FAB.Droid.Resource.Attribute.srcCompat = global::CheckiePyMobile.Droid.Resource.Attribute.srcCompat;
+			global::FAB.Droid.Resource.Attribute.stackFromEnd = global::CheckiePyMobile.Droid.Resource.Attribute.stackFromEnd;
+			global::FAB.Droid.Resource.Attribute.state_above_anchor = global::CheckiePyMobile.Droid.Resource.Attribute.state_above_anchor;
+			global::FAB.Droid.Resource.Attribute.statusBarBackground = global::CheckiePyMobile.Droid.Resource.Attribute.statusBarBackground;
+			global::FAB.Droid.Resource.Attribute.statusBarScrim = global::CheckiePyMobile.Droid.Resource.Attribute.statusBarScrim;
+			global::FAB.Droid.Resource.Attribute.submitBackground = global::CheckiePyMobile.Droid.Resource.Attribute.submitBackground;
+			global::FAB.Droid.Resource.Attribute.subtitle = global::CheckiePyMobile.Droid.Resource.Attribute.subtitle;
+			global::FAB.Droid.Resource.Attribute.subtitleTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::FAB.Droid.Resource.Attribute.subtitleTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.subtitleTextColor;
+			global::FAB.Droid.Resource.Attribute.subtitleTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.subtitleTextStyle;
+			global::FAB.Droid.Resource.Attribute.suggestionRowLayout = global::CheckiePyMobile.Droid.Resource.Attribute.suggestionRowLayout;
+			global::FAB.Droid.Resource.Attribute.switchMinWidth = global::CheckiePyMobile.Droid.Resource.Attribute.switchMinWidth;
+			global::FAB.Droid.Resource.Attribute.switchPadding = global::CheckiePyMobile.Droid.Resource.Attribute.switchPadding;
+			global::FAB.Droid.Resource.Attribute.switchStyle = global::CheckiePyMobile.Droid.Resource.Attribute.switchStyle;
+			global::FAB.Droid.Resource.Attribute.switchTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.switchTextAppearance;
+			global::FAB.Droid.Resource.Attribute.tabBackground = global::CheckiePyMobile.Droid.Resource.Attribute.tabBackground;
+			global::FAB.Droid.Resource.Attribute.tabContentStart = global::CheckiePyMobile.Droid.Resource.Attribute.tabContentStart;
+			global::FAB.Droid.Resource.Attribute.tabGravity = global::CheckiePyMobile.Droid.Resource.Attribute.tabGravity;
+			global::FAB.Droid.Resource.Attribute.tabIndicatorColor = global::CheckiePyMobile.Droid.Resource.Attribute.tabIndicatorColor;
+			global::FAB.Droid.Resource.Attribute.tabIndicatorHeight = global::CheckiePyMobile.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::FAB.Droid.Resource.Attribute.tabMaxWidth = global::CheckiePyMobile.Droid.Resource.Attribute.tabMaxWidth;
+			global::FAB.Droid.Resource.Attribute.tabMinWidth = global::CheckiePyMobile.Droid.Resource.Attribute.tabMinWidth;
+			global::FAB.Droid.Resource.Attribute.tabMode = global::CheckiePyMobile.Droid.Resource.Attribute.tabMode;
+			global::FAB.Droid.Resource.Attribute.tabPadding = global::CheckiePyMobile.Droid.Resource.Attribute.tabPadding;
+			global::FAB.Droid.Resource.Attribute.tabPaddingBottom = global::CheckiePyMobile.Droid.Resource.Attribute.tabPaddingBottom;
+			global::FAB.Droid.Resource.Attribute.tabPaddingEnd = global::CheckiePyMobile.Droid.Resource.Attribute.tabPaddingEnd;
+			global::FAB.Droid.Resource.Attribute.tabPaddingStart = global::CheckiePyMobile.Droid.Resource.Attribute.tabPaddingStart;
+			global::FAB.Droid.Resource.Attribute.tabPaddingTop = global::CheckiePyMobile.Droid.Resource.Attribute.tabPaddingTop;
+			global::FAB.Droid.Resource.Attribute.tabSelectedTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::FAB.Droid.Resource.Attribute.tabTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.tabTextAppearance;
+			global::FAB.Droid.Resource.Attribute.tabTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.tabTextColor;
+			global::FAB.Droid.Resource.Attribute.textAllCaps = global::CheckiePyMobile.Droid.Resource.Attribute.textAllCaps;
+			global::FAB.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::CheckiePyMobile.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::FAB.Droid.Resource.Attribute.textAppearanceListItem = global::CheckiePyMobile.Droid.Resource.Attribute.textAppearanceListItem;
+			global::FAB.Droid.Resource.Attribute.textAppearanceListItemSmall = global::CheckiePyMobile.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::FAB.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CheckiePyMobile.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::FAB.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::CheckiePyMobile.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::FAB.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::CheckiePyMobile.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::FAB.Droid.Resource.Attribute.textColorAlertDialogListItem = global::CheckiePyMobile.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::FAB.Droid.Resource.Attribute.textColorError = global::CheckiePyMobile.Droid.Resource.Attribute.textColorError;
+			global::FAB.Droid.Resource.Attribute.textColorSearchUrl = global::CheckiePyMobile.Droid.Resource.Attribute.textColorSearchUrl;
+			global::FAB.Droid.Resource.Attribute.theme = global::CheckiePyMobile.Droid.Resource.Attribute.theme;
+			global::FAB.Droid.Resource.Attribute.thickness = global::CheckiePyMobile.Droid.Resource.Attribute.thickness;
+			global::FAB.Droid.Resource.Attribute.thumbTextPadding = global::CheckiePyMobile.Droid.Resource.Attribute.thumbTextPadding;
+			global::FAB.Droid.Resource.Attribute.title = global::CheckiePyMobile.Droid.Resource.Attribute.title;
+			global::FAB.Droid.Resource.Attribute.titleEnabled = global::CheckiePyMobile.Droid.Resource.Attribute.titleEnabled;
+			global::FAB.Droid.Resource.Attribute.titleMarginBottom = global::CheckiePyMobile.Droid.Resource.Attribute.titleMarginBottom;
+			global::FAB.Droid.Resource.Attribute.titleMarginEnd = global::CheckiePyMobile.Droid.Resource.Attribute.titleMarginEnd;
+			global::FAB.Droid.Resource.Attribute.titleMarginStart = global::CheckiePyMobile.Droid.Resource.Attribute.titleMarginStart;
+			global::FAB.Droid.Resource.Attribute.titleMarginTop = global::CheckiePyMobile.Droid.Resource.Attribute.titleMarginTop;
+			global::FAB.Droid.Resource.Attribute.titleMargins = global::CheckiePyMobile.Droid.Resource.Attribute.titleMargins;
+			global::FAB.Droid.Resource.Attribute.titleTextAppearance = global::CheckiePyMobile.Droid.Resource.Attribute.titleTextAppearance;
+			global::FAB.Droid.Resource.Attribute.titleTextColor = global::CheckiePyMobile.Droid.Resource.Attribute.titleTextColor;
+			global::FAB.Droid.Resource.Attribute.titleTextStyle = global::CheckiePyMobile.Droid.Resource.Attribute.titleTextStyle;
+			global::FAB.Droid.Resource.Attribute.toolbarId = global::CheckiePyMobile.Droid.Resource.Attribute.toolbarId;
+			global::FAB.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::CheckiePyMobile.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::FAB.Droid.Resource.Attribute.toolbarStyle = global::CheckiePyMobile.Droid.Resource.Attribute.toolbarStyle;
+			global::FAB.Droid.Resource.Attribute.track = global::CheckiePyMobile.Droid.Resource.Attribute.track;
+			global::FAB.Droid.Resource.Attribute.useCompatPadding = global::CheckiePyMobile.Droid.Resource.Attribute.useCompatPadding;
+			global::FAB.Droid.Resource.Attribute.voiceIcon = global::CheckiePyMobile.Droid.Resource.Attribute.voiceIcon;
+			global::FAB.Droid.Resource.Attribute.windowActionBar = global::CheckiePyMobile.Droid.Resource.Attribute.windowActionBar;
+			global::FAB.Droid.Resource.Attribute.windowActionBarOverlay = global::CheckiePyMobile.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::FAB.Droid.Resource.Attribute.windowActionModeOverlay = global::CheckiePyMobile.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::FAB.Droid.Resource.Attribute.windowFixedHeightMajor = global::CheckiePyMobile.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::FAB.Droid.Resource.Attribute.windowFixedHeightMinor = global::CheckiePyMobile.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::FAB.Droid.Resource.Attribute.windowFixedWidthMajor = global::CheckiePyMobile.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::FAB.Droid.Resource.Attribute.windowFixedWidthMinor = global::CheckiePyMobile.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::FAB.Droid.Resource.Attribute.windowMinWidthMajor = global::CheckiePyMobile.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::FAB.Droid.Resource.Attribute.windowMinWidthMinor = global::CheckiePyMobile.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::FAB.Droid.Resource.Attribute.windowNoTitle = global::CheckiePyMobile.Droid.Resource.Attribute.windowNoTitle;
+			global::FAB.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::CheckiePyMobile.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::FAB.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::CheckiePyMobile.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::FAB.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::CheckiePyMobile.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::FAB.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::CheckiePyMobile.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::FAB.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CheckiePyMobile.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::FAB.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::CheckiePyMobile.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::FAB.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::CheckiePyMobile.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::FAB.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::CheckiePyMobile.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::FAB.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CheckiePyMobile.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::FAB.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::CheckiePyMobile.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::FAB.Droid.Resource.Color.abc_color_highlight_material = global::CheckiePyMobile.Droid.Resource.Color.abc_color_highlight_material;
+			global::FAB.Droid.Resource.Color.abc_input_method_navigation_guard = global::CheckiePyMobile.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::FAB.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::CheckiePyMobile.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::FAB.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::CheckiePyMobile.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::FAB.Droid.Resource.Color.abc_primary_text_material_dark = global::CheckiePyMobile.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::FAB.Droid.Resource.Color.abc_primary_text_material_light = global::CheckiePyMobile.Droid.Resource.Color.abc_primary_text_material_light;
+			global::FAB.Droid.Resource.Color.abc_search_url_text = global::CheckiePyMobile.Droid.Resource.Color.abc_search_url_text;
+			global::FAB.Droid.Resource.Color.abc_search_url_text_normal = global::CheckiePyMobile.Droid.Resource.Color.abc_search_url_text_normal;
+			global::FAB.Droid.Resource.Color.abc_search_url_text_pressed = global::CheckiePyMobile.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::FAB.Droid.Resource.Color.abc_search_url_text_selected = global::CheckiePyMobile.Droid.Resource.Color.abc_search_url_text_selected;
+			global::FAB.Droid.Resource.Color.abc_secondary_text_material_dark = global::CheckiePyMobile.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::FAB.Droid.Resource.Color.abc_secondary_text_material_light = global::CheckiePyMobile.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::FAB.Droid.Resource.Color.accent_material_dark = global::CheckiePyMobile.Droid.Resource.Color.accent_material_dark;
+			global::FAB.Droid.Resource.Color.accent_material_light = global::CheckiePyMobile.Droid.Resource.Color.accent_material_light;
+			global::FAB.Droid.Resource.Color.background_floating_material_dark = global::CheckiePyMobile.Droid.Resource.Color.background_floating_material_dark;
+			global::FAB.Droid.Resource.Color.background_floating_material_light = global::CheckiePyMobile.Droid.Resource.Color.background_floating_material_light;
+			global::FAB.Droid.Resource.Color.background_material_dark = global::CheckiePyMobile.Droid.Resource.Color.background_material_dark;
+			global::FAB.Droid.Resource.Color.background_material_light = global::CheckiePyMobile.Droid.Resource.Color.background_material_light;
+			global::FAB.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::CheckiePyMobile.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::FAB.Droid.Resource.Color.bright_foreground_disabled_material_light = global::CheckiePyMobile.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::FAB.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::CheckiePyMobile.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::FAB.Droid.Resource.Color.bright_foreground_inverse_material_light = global::CheckiePyMobile.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::FAB.Droid.Resource.Color.bright_foreground_material_dark = global::CheckiePyMobile.Droid.Resource.Color.bright_foreground_material_dark;
+			global::FAB.Droid.Resource.Color.bright_foreground_material_light = global::CheckiePyMobile.Droid.Resource.Color.bright_foreground_material_light;
+			global::FAB.Droid.Resource.Color.button_material_dark = global::CheckiePyMobile.Droid.Resource.Color.button_material_dark;
+			global::FAB.Droid.Resource.Color.button_material_light = global::CheckiePyMobile.Droid.Resource.Color.button_material_light;
+			global::FAB.Droid.Resource.Color.cardview_dark_background = global::CheckiePyMobile.Droid.Resource.Color.cardview_dark_background;
+			global::FAB.Droid.Resource.Color.cardview_light_background = global::CheckiePyMobile.Droid.Resource.Color.cardview_light_background;
+			global::FAB.Droid.Resource.Color.cardview_shadow_end_color = global::CheckiePyMobile.Droid.Resource.Color.cardview_shadow_end_color;
+			global::FAB.Droid.Resource.Color.cardview_shadow_start_color = global::CheckiePyMobile.Droid.Resource.Color.cardview_shadow_start_color;
+			global::FAB.Droid.Resource.Color.design_fab_shadow_end_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::FAB.Droid.Resource.Color.design_fab_shadow_mid_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::FAB.Droid.Resource.Color.design_fab_shadow_start_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::FAB.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::FAB.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::FAB.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::FAB.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::CheckiePyMobile.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::FAB.Droid.Resource.Color.design_snackbar_background_color = global::CheckiePyMobile.Droid.Resource.Color.design_snackbar_background_color;
+			global::FAB.Droid.Resource.Color.design_textinput_error_color_dark = global::CheckiePyMobile.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::FAB.Droid.Resource.Color.design_textinput_error_color_light = global::CheckiePyMobile.Droid.Resource.Color.design_textinput_error_color_light;
+			global::FAB.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::CheckiePyMobile.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::FAB.Droid.Resource.Color.dim_foreground_disabled_material_light = global::CheckiePyMobile.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::FAB.Droid.Resource.Color.dim_foreground_material_dark = global::CheckiePyMobile.Droid.Resource.Color.dim_foreground_material_dark;
+			global::FAB.Droid.Resource.Color.dim_foreground_material_light = global::CheckiePyMobile.Droid.Resource.Color.dim_foreground_material_light;
+			global::FAB.Droid.Resource.Color.fab_material_blue_500 = global::CheckiePyMobile.Droid.Resource.Color.fab_material_blue_500;
+			global::FAB.Droid.Resource.Color.foreground_material_dark = global::CheckiePyMobile.Droid.Resource.Color.foreground_material_dark;
+			global::FAB.Droid.Resource.Color.foreground_material_light = global::CheckiePyMobile.Droid.Resource.Color.foreground_material_light;
+			global::FAB.Droid.Resource.Color.highlighted_text_material_dark = global::CheckiePyMobile.Droid.Resource.Color.highlighted_text_material_dark;
+			global::FAB.Droid.Resource.Color.highlighted_text_material_light = global::CheckiePyMobile.Droid.Resource.Color.highlighted_text_material_light;
+			global::FAB.Droid.Resource.Color.hint_foreground_material_dark = global::CheckiePyMobile.Droid.Resource.Color.hint_foreground_material_dark;
+			global::FAB.Droid.Resource.Color.hint_foreground_material_light = global::CheckiePyMobile.Droid.Resource.Color.hint_foreground_material_light;
+			global::FAB.Droid.Resource.Color.material_blue_grey_800 = global::CheckiePyMobile.Droid.Resource.Color.material_blue_grey_800;
+			global::FAB.Droid.Resource.Color.material_blue_grey_900 = global::CheckiePyMobile.Droid.Resource.Color.material_blue_grey_900;
+			global::FAB.Droid.Resource.Color.material_blue_grey_950 = global::CheckiePyMobile.Droid.Resource.Color.material_blue_grey_950;
+			global::FAB.Droid.Resource.Color.material_deep_teal_200 = global::CheckiePyMobile.Droid.Resource.Color.material_deep_teal_200;
+			global::FAB.Droid.Resource.Color.material_deep_teal_500 = global::CheckiePyMobile.Droid.Resource.Color.material_deep_teal_500;
+			global::FAB.Droid.Resource.Color.material_grey_100 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_100;
+			global::FAB.Droid.Resource.Color.material_grey_300 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_300;
+			global::FAB.Droid.Resource.Color.material_grey_50 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_50;
+			global::FAB.Droid.Resource.Color.material_grey_600 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_600;
+			global::FAB.Droid.Resource.Color.material_grey_800 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_800;
+			global::FAB.Droid.Resource.Color.material_grey_850 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_850;
+			global::FAB.Droid.Resource.Color.material_grey_900 = global::CheckiePyMobile.Droid.Resource.Color.material_grey_900;
+			global::FAB.Droid.Resource.Color.primary_dark_material_dark = global::CheckiePyMobile.Droid.Resource.Color.primary_dark_material_dark;
+			global::FAB.Droid.Resource.Color.primary_dark_material_light = global::CheckiePyMobile.Droid.Resource.Color.primary_dark_material_light;
+			global::FAB.Droid.Resource.Color.primary_material_dark = global::CheckiePyMobile.Droid.Resource.Color.primary_material_dark;
+			global::FAB.Droid.Resource.Color.primary_material_light = global::CheckiePyMobile.Droid.Resource.Color.primary_material_light;
+			global::FAB.Droid.Resource.Color.primary_text_default_material_dark = global::CheckiePyMobile.Droid.Resource.Color.primary_text_default_material_dark;
+			global::FAB.Droid.Resource.Color.primary_text_default_material_light = global::CheckiePyMobile.Droid.Resource.Color.primary_text_default_material_light;
+			global::FAB.Droid.Resource.Color.primary_text_disabled_material_dark = global::CheckiePyMobile.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::FAB.Droid.Resource.Color.primary_text_disabled_material_light = global::CheckiePyMobile.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::FAB.Droid.Resource.Color.ripple_material_dark = global::CheckiePyMobile.Droid.Resource.Color.ripple_material_dark;
+			global::FAB.Droid.Resource.Color.ripple_material_light = global::CheckiePyMobile.Droid.Resource.Color.ripple_material_light;
+			global::FAB.Droid.Resource.Color.secondary_text_default_material_dark = global::CheckiePyMobile.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::FAB.Droid.Resource.Color.secondary_text_default_material_light = global::CheckiePyMobile.Droid.Resource.Color.secondary_text_default_material_light;
+			global::FAB.Droid.Resource.Color.secondary_text_disabled_material_dark = global::CheckiePyMobile.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::FAB.Droid.Resource.Color.secondary_text_disabled_material_light = global::CheckiePyMobile.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::FAB.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::CheckiePyMobile.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::FAB.Droid.Resource.Color.switch_thumb_disabled_material_light = global::CheckiePyMobile.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::FAB.Droid.Resource.Color.switch_thumb_material_dark = global::CheckiePyMobile.Droid.Resource.Color.switch_thumb_material_dark;
+			global::FAB.Droid.Resource.Color.switch_thumb_material_light = global::CheckiePyMobile.Droid.Resource.Color.switch_thumb_material_light;
+			global::FAB.Droid.Resource.Color.switch_thumb_normal_material_dark = global::CheckiePyMobile.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::FAB.Droid.Resource.Color.switch_thumb_normal_material_light = global::CheckiePyMobile.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_button_min_height_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_button_min_width_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::FAB.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::FAB.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CheckiePyMobile.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::FAB.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::FAB.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::FAB.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::FAB.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::FAB.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::CheckiePyMobile.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::FAB.Droid.Resource.Dimension.abc_control_corner_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_control_corner_material;
+			global::FAB.Droid.Resource.Dimension.abc_control_inset_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_control_inset_material;
+			global::FAB.Droid.Resource.Dimension.abc_control_padding_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_control_padding_material;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_min_width_major = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_padding_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::FAB.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::FAB.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::CheckiePyMobile.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::FAB.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::CheckiePyMobile.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::FAB.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::FAB.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::FAB.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CheckiePyMobile.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::FAB.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::FAB.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::FAB.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::FAB.Droid.Resource.Dimension.abc_floating_window_z = global::CheckiePyMobile.Droid.Resource.Dimension.abc_floating_window_z;
+			global::FAB.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::FAB.Droid.Resource.Dimension.abc_panel_menu_list_width = global::CheckiePyMobile.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::FAB.Droid.Resource.Dimension.abc_search_view_preferred_width = global::CheckiePyMobile.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::FAB.Droid.Resource.Dimension.abc_search_view_text_min_width = global::CheckiePyMobile.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::FAB.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::FAB.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::FAB.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::FAB.Droid.Resource.Dimension.abc_switch_padding = global::CheckiePyMobile.Droid.Resource.Dimension.abc_switch_padding;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_body_1_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_body_2_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_button_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_caption_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_display_1_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_display_2_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_display_3_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_display_4_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_headline_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_large_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_medium_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_menu_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_small_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_subhead_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_title_material = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::FAB.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::CheckiePyMobile.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::FAB.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::CheckiePyMobile.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::FAB.Droid.Resource.Dimension.cardview_default_elevation = global::CheckiePyMobile.Droid.Resource.Dimension.cardview_default_elevation;
+			global::FAB.Droid.Resource.Dimension.cardview_default_radius = global::CheckiePyMobile.Droid.Resource.Dimension.cardview_default_radius;
+			global::FAB.Droid.Resource.Dimension.design_appbar_elevation = global::CheckiePyMobile.Droid.Resource.Dimension.design_appbar_elevation;
+			global::FAB.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CheckiePyMobile.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::FAB.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::CheckiePyMobile.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::FAB.Droid.Resource.Dimension.design_fab_border_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_fab_border_width;
+			global::FAB.Droid.Resource.Dimension.design_fab_elevation = global::CheckiePyMobile.Droid.Resource.Dimension.design_fab_elevation;
+			global::FAB.Droid.Resource.Dimension.design_fab_image_size = global::CheckiePyMobile.Droid.Resource.Dimension.design_fab_image_size;
+			global::FAB.Droid.Resource.Dimension.design_fab_size_mini = global::CheckiePyMobile.Droid.Resource.Dimension.design_fab_size_mini;
+			global::FAB.Droid.Resource.Dimension.design_fab_size_normal = global::CheckiePyMobile.Droid.Resource.Dimension.design_fab_size_normal;
+			global::FAB.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::CheckiePyMobile.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::FAB.Droid.Resource.Dimension.design_navigation_elevation = global::CheckiePyMobile.Droid.Resource.Dimension.design_navigation_elevation;
+			global::FAB.Droid.Resource.Dimension.design_navigation_icon_padding = global::CheckiePyMobile.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::FAB.Droid.Resource.Dimension.design_navigation_icon_size = global::CheckiePyMobile.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::FAB.Droid.Resource.Dimension.design_navigation_max_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_navigation_max_width;
+			global::FAB.Droid.Resource.Dimension.design_navigation_padding_bottom = global::CheckiePyMobile.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::FAB.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::CheckiePyMobile.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_elevation = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_max_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_min_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::FAB.Droid.Resource.Dimension.design_snackbar_text_size = global::CheckiePyMobile.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::FAB.Droid.Resource.Dimension.design_tab_max_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_tab_max_width;
+			global::FAB.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::CheckiePyMobile.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::FAB.Droid.Resource.Dimension.design_tab_text_size = global::CheckiePyMobile.Droid.Resource.Dimension.design_tab_text_size;
+			global::FAB.Droid.Resource.Dimension.design_tab_text_size_2line = global::CheckiePyMobile.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::FAB.Droid.Resource.Dimension.disabled_alpha_material_dark = global::CheckiePyMobile.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::FAB.Droid.Resource.Dimension.disabled_alpha_material_light = global::CheckiePyMobile.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::FAB.Droid.Resource.Dimension.fab_elevation_lollipop = global::CheckiePyMobile.Droid.Resource.Dimension.fab_elevation_lollipop;
+			global::FAB.Droid.Resource.Dimension.fab_scroll_threshold = global::CheckiePyMobile.Droid.Resource.Dimension.fab_scroll_threshold;
+			global::FAB.Droid.Resource.Dimension.fab_shadow_size = global::CheckiePyMobile.Droid.Resource.Dimension.fab_shadow_size;
+			global::FAB.Droid.Resource.Dimension.fab_size_mini = global::CheckiePyMobile.Droid.Resource.Dimension.fab_size_mini;
+			global::FAB.Droid.Resource.Dimension.fab_size_normal = global::CheckiePyMobile.Droid.Resource.Dimension.fab_size_normal;
+			global::FAB.Droid.Resource.Dimension.highlight_alpha_material_colored = global::CheckiePyMobile.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::FAB.Droid.Resource.Dimension.highlight_alpha_material_dark = global::CheckiePyMobile.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::FAB.Droid.Resource.Dimension.highlight_alpha_material_light = global::CheckiePyMobile.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::FAB.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CheckiePyMobile.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::FAB.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CheckiePyMobile.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::FAB.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CheckiePyMobile.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::CheckiePyMobile.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::CheckiePyMobile.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::CheckiePyMobile.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::CheckiePyMobile.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::FAB.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::CheckiePyMobile.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::FAB.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::CheckiePyMobile.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::FAB.Droid.Resource.Dimension.notification_large_icon_height = global::CheckiePyMobile.Droid.Resource.Dimension.notification_large_icon_height;
+			global::FAB.Droid.Resource.Dimension.notification_large_icon_width = global::CheckiePyMobile.Droid.Resource.Dimension.notification_large_icon_width;
+			global::FAB.Droid.Resource.Dimension.notification_subtext_size = global::CheckiePyMobile.Droid.Resource.Dimension.notification_subtext_size;
+			global::FAB.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::FAB.Droid.Resource.Drawable.abc_btn_borderless_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::FAB.Droid.Resource.Drawable.abc_btn_check_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_check_material;
+			global::FAB.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::FAB.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::FAB.Droid.Resource.Drawable.abc_btn_colored_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::FAB.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::FAB.Droid.Resource.Drawable.abc_btn_radio_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::FAB.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::FAB.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::FAB.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::FAB.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::FAB.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::CheckiePyMobile.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::FAB.Droid.Resource.Drawable.abc_cab_background_top_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::FAB.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_control_background_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_control_background_material;
+			global::FAB.Droid.Resource.Drawable.abc_dialog_material_background_dark = global::CheckiePyMobile.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::FAB.Droid.Resource.Drawable.abc_dialog_material_background_light = global::CheckiePyMobile.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::FAB.Droid.Resource.Drawable.abc_edit_text_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_edit_text_material;
+			global::FAB.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::FAB.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::FAB.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::FAB.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::FAB.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_item_background_holo_dark = global::CheckiePyMobile.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::FAB.Droid.Resource.Drawable.abc_item_background_holo_light = global::CheckiePyMobile.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::FAB.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_list_focused_holo = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::FAB.Droid.Resource.Drawable.abc_list_longpressed_holo = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::FAB.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::FAB.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::FAB.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::FAB.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::FAB.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::FAB.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::FAB.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::FAB.Droid.Resource.Drawable.abc_list_selector_holo_light = global::CheckiePyMobile.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::FAB.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CheckiePyMobile.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::FAB.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::CheckiePyMobile.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::FAB.Droid.Resource.Drawable.abc_ratingbar_full_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::FAB.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::FAB.Droid.Resource.Drawable.abc_ratingbar_small_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::FAB.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::FAB.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CheckiePyMobile.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::FAB.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::FAB.Droid.Resource.Drawable.abc_seekbar_track_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::FAB.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::FAB.Droid.Resource.Drawable.abc_switch_thumb_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::FAB.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_tab_indicator_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::FAB.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_text_cursor_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::FAB.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CheckiePyMobile.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::FAB.Droid.Resource.Drawable.abc_textfield_search_material = global::CheckiePyMobile.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::FAB.Droid.Resource.Drawable.design_fab_background = global::CheckiePyMobile.Droid.Resource.Drawable.design_fab_background;
+			global::FAB.Droid.Resource.Drawable.design_snackbar_background = global::CheckiePyMobile.Droid.Resource.Drawable.design_snackbar_background;
+			global::FAB.Droid.Resource.Drawable.fab_shadow = global::CheckiePyMobile.Droid.Resource.Drawable.fab_shadow;
+			global::FAB.Droid.Resource.Drawable.fab_shadow_mini = global::CheckiePyMobile.Droid.Resource.Drawable.fab_shadow_mini;
+			global::FAB.Droid.Resource.Drawable.ic_audiotrack = global::CheckiePyMobile.Droid.Resource.Drawable.ic_audiotrack;
+			global::FAB.Droid.Resource.Drawable.ic_audiotrack_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::FAB.Droid.Resource.Drawable.ic_bluetooth_grey = global::CheckiePyMobile.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::FAB.Droid.Resource.Drawable.ic_bluetooth_white = global::CheckiePyMobile.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::FAB.Droid.Resource.Drawable.ic_cast_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_dark;
+			global::FAB.Droid.Resource.Drawable.ic_cast_disabled_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_grey = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_grey;
+			global::FAB.Droid.Resource.Drawable.ic_cast_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_off_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_off_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_on_0_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_on_1_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_on_2_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_on_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_on_light;
+			global::FAB.Droid.Resource.Drawable.ic_cast_white = global::CheckiePyMobile.Droid.Resource.Drawable.ic_cast_white;
+			global::FAB.Droid.Resource.Drawable.ic_close_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_close_dark;
+			global::FAB.Droid.Resource.Drawable.ic_close_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_close_light;
+			global::FAB.Droid.Resource.Drawable.ic_collapse = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00000 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00000;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00001 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00001;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00002 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00002;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00003 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00003;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00004 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00004;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00005 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00005;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00006 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00006;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00007 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00007;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00008 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00008;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00009 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00009;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00010 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00010;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00011 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00011;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00012 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00012;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00013 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00013;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00014 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00014;
+			global::FAB.Droid.Resource.Drawable.ic_collapse_00015 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_collapse_00015;
+			global::FAB.Droid.Resource.Drawable.ic_expand = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00000 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00000;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00001 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00001;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00002 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00002;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00003 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00003;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00004 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00004;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00005 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00005;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00006 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00006;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00007 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00007;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00008 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00008;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00009 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00009;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00010 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00010;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00011 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00011;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00012 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00012;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00013 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00013;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00014 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00014;
+			global::FAB.Droid.Resource.Drawable.ic_expand_00015 = global::CheckiePyMobile.Droid.Resource.Drawable.ic_expand_00015;
+			global::FAB.Droid.Resource.Drawable.ic_media_pause = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_pause;
+			global::FAB.Droid.Resource.Drawable.ic_media_play = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_play;
+			global::FAB.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::FAB.Droid.Resource.Drawable.ic_media_route_off_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::FAB.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::FAB.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::FAB.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::FAB.Droid.Resource.Drawable.ic_media_route_on_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::FAB.Droid.Resource.Drawable.ic_pause_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_pause_dark;
+			global::FAB.Droid.Resource.Drawable.ic_pause_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_pause_light;
+			global::FAB.Droid.Resource.Drawable.ic_play_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_play_dark;
+			global::FAB.Droid.Resource.Drawable.ic_play_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_play_light;
+			global::FAB.Droid.Resource.Drawable.ic_speaker_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_speaker_dark;
+			global::FAB.Droid.Resource.Drawable.ic_speaker_group_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::FAB.Droid.Resource.Drawable.ic_speaker_group_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::FAB.Droid.Resource.Drawable.ic_speaker_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_speaker_light;
+			global::FAB.Droid.Resource.Drawable.ic_tv_dark = global::CheckiePyMobile.Droid.Resource.Drawable.ic_tv_dark;
+			global::FAB.Droid.Resource.Drawable.ic_tv_light = global::CheckiePyMobile.Droid.Resource.Drawable.ic_tv_light;
+			global::FAB.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::FAB.Droid.Resource.Drawable.mr_dialog_material_background_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_audiotrack_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_cast_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::FAB.Droid.Resource.Drawable.mr_ic_cast_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_close_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::FAB.Droid.Resource.Drawable.mr_ic_close_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_close_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_mono_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_mono_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_pause_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::FAB.Droid.Resource.Drawable.mr_ic_pause_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::FAB.Droid.Resource.Drawable.mr_ic_play_dark = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::FAB.Droid.Resource.Drawable.mr_ic_play_light = global::CheckiePyMobile.Droid.Resource.Drawable.mr_ic_play_light;
+			global::FAB.Droid.Resource.Drawable.notification_template_icon_bg = global::CheckiePyMobile.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::FAB.Droid.Resource.Id.action0 = global::CheckiePyMobile.Droid.Resource.Id.action0;
+			global::FAB.Droid.Resource.Id.action_bar = global::CheckiePyMobile.Droid.Resource.Id.action_bar;
+			global::FAB.Droid.Resource.Id.action_bar_activity_content = global::CheckiePyMobile.Droid.Resource.Id.action_bar_activity_content;
+			global::FAB.Droid.Resource.Id.action_bar_container = global::CheckiePyMobile.Droid.Resource.Id.action_bar_container;
+			global::FAB.Droid.Resource.Id.action_bar_root = global::CheckiePyMobile.Droid.Resource.Id.action_bar_root;
+			global::FAB.Droid.Resource.Id.action_bar_spinner = global::CheckiePyMobile.Droid.Resource.Id.action_bar_spinner;
+			global::FAB.Droid.Resource.Id.action_bar_subtitle = global::CheckiePyMobile.Droid.Resource.Id.action_bar_subtitle;
+			global::FAB.Droid.Resource.Id.action_bar_title = global::CheckiePyMobile.Droid.Resource.Id.action_bar_title;
+			global::FAB.Droid.Resource.Id.action_context_bar = global::CheckiePyMobile.Droid.Resource.Id.action_context_bar;
+			global::FAB.Droid.Resource.Id.action_divider = global::CheckiePyMobile.Droid.Resource.Id.action_divider;
+			global::FAB.Droid.Resource.Id.action_menu_divider = global::CheckiePyMobile.Droid.Resource.Id.action_menu_divider;
+			global::FAB.Droid.Resource.Id.action_menu_presenter = global::CheckiePyMobile.Droid.Resource.Id.action_menu_presenter;
+			global::FAB.Droid.Resource.Id.action_mode_bar = global::CheckiePyMobile.Droid.Resource.Id.action_mode_bar;
+			global::FAB.Droid.Resource.Id.action_mode_bar_stub = global::CheckiePyMobile.Droid.Resource.Id.action_mode_bar_stub;
+			global::FAB.Droid.Resource.Id.action_mode_close_button = global::CheckiePyMobile.Droid.Resource.Id.action_mode_close_button;
+			global::FAB.Droid.Resource.Id.activity_chooser_view_content = global::CheckiePyMobile.Droid.Resource.Id.activity_chooser_view_content;
+			global::FAB.Droid.Resource.Id.alertTitle = global::CheckiePyMobile.Droid.Resource.Id.alertTitle;
+			global::FAB.Droid.Resource.Id.always = global::CheckiePyMobile.Droid.Resource.Id.always;
+			global::FAB.Droid.Resource.Id.beginning = global::CheckiePyMobile.Droid.Resource.Id.beginning;
+			global::FAB.Droid.Resource.Id.bottom = global::CheckiePyMobile.Droid.Resource.Id.bottom;
+			global::FAB.Droid.Resource.Id.buttonPanel = global::CheckiePyMobile.Droid.Resource.Id.buttonPanel;
+			global::FAB.Droid.Resource.Id.cancel_action = global::CheckiePyMobile.Droid.Resource.Id.cancel_action;
+			global::FAB.Droid.Resource.Id.center = global::CheckiePyMobile.Droid.Resource.Id.center;
+			global::FAB.Droid.Resource.Id.center_horizontal = global::CheckiePyMobile.Droid.Resource.Id.center_horizontal;
+			global::FAB.Droid.Resource.Id.center_vertical = global::CheckiePyMobile.Droid.Resource.Id.center_vertical;
+			global::FAB.Droid.Resource.Id.checkbox = global::CheckiePyMobile.Droid.Resource.Id.checkbox;
+			global::FAB.Droid.Resource.Id.chronometer = global::CheckiePyMobile.Droid.Resource.Id.chronometer;
+			global::FAB.Droid.Resource.Id.clip_horizontal = global::CheckiePyMobile.Droid.Resource.Id.clip_horizontal;
+			global::FAB.Droid.Resource.Id.clip_vertical = global::CheckiePyMobile.Droid.Resource.Id.clip_vertical;
+			global::FAB.Droid.Resource.Id.collapseActionView = global::CheckiePyMobile.Droid.Resource.Id.collapseActionView;
+			global::FAB.Droid.Resource.Id.contentPanel = global::CheckiePyMobile.Droid.Resource.Id.contentPanel;
+			global::FAB.Droid.Resource.Id.custom = global::CheckiePyMobile.Droid.Resource.Id.custom;
+			global::FAB.Droid.Resource.Id.customPanel = global::CheckiePyMobile.Droid.Resource.Id.customPanel;
+			global::FAB.Droid.Resource.Id.decor_content_parent = global::CheckiePyMobile.Droid.Resource.Id.decor_content_parent;
+			global::FAB.Droid.Resource.Id.default_activity_button = global::CheckiePyMobile.Droid.Resource.Id.default_activity_button;
+			global::FAB.Droid.Resource.Id.design_bottom_sheet = global::CheckiePyMobile.Droid.Resource.Id.design_bottom_sheet;
+			global::FAB.Droid.Resource.Id.design_menu_item_action_area = global::CheckiePyMobile.Droid.Resource.Id.design_menu_item_action_area;
+			global::FAB.Droid.Resource.Id.design_menu_item_action_area_stub = global::CheckiePyMobile.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::FAB.Droid.Resource.Id.design_menu_item_text = global::CheckiePyMobile.Droid.Resource.Id.design_menu_item_text;
+			global::FAB.Droid.Resource.Id.design_navigation_view = global::CheckiePyMobile.Droid.Resource.Id.design_navigation_view;
+			global::FAB.Droid.Resource.Id.disableHome = global::CheckiePyMobile.Droid.Resource.Id.disableHome;
+			global::FAB.Droid.Resource.Id.edit_query = global::CheckiePyMobile.Droid.Resource.Id.edit_query;
+			global::FAB.Droid.Resource.Id.end = global::CheckiePyMobile.Droid.Resource.Id.end;
+			global::FAB.Droid.Resource.Id.end_padder = global::CheckiePyMobile.Droid.Resource.Id.end_padder;
+			global::FAB.Droid.Resource.Id.enterAlways = global::CheckiePyMobile.Droid.Resource.Id.enterAlways;
+			global::FAB.Droid.Resource.Id.enterAlwaysCollapsed = global::CheckiePyMobile.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::FAB.Droid.Resource.Id.exitUntilCollapsed = global::CheckiePyMobile.Droid.Resource.Id.exitUntilCollapsed;
+			global::FAB.Droid.Resource.Id.expand_activities_button = global::CheckiePyMobile.Droid.Resource.Id.expand_activities_button;
+			global::FAB.Droid.Resource.Id.expanded_menu = global::CheckiePyMobile.Droid.Resource.Id.expanded_menu;
+			global::FAB.Droid.Resource.Id.fill = global::CheckiePyMobile.Droid.Resource.Id.fill;
+			global::FAB.Droid.Resource.Id.fill_horizontal = global::CheckiePyMobile.Droid.Resource.Id.fill_horizontal;
+			global::FAB.Droid.Resource.Id.fill_vertical = global::CheckiePyMobile.Droid.Resource.Id.fill_vertical;
+			global::FAB.Droid.Resource.Id.@fixed = global::CheckiePyMobile.Droid.Resource.Id.@fixed;
+			global::FAB.Droid.Resource.Id.home = global::CheckiePyMobile.Droid.Resource.Id.home;
+			global::FAB.Droid.Resource.Id.homeAsUp = global::CheckiePyMobile.Droid.Resource.Id.homeAsUp;
+			global::FAB.Droid.Resource.Id.icon = global::CheckiePyMobile.Droid.Resource.Id.icon;
+			global::FAB.Droid.Resource.Id.ifRoom = global::CheckiePyMobile.Droid.Resource.Id.ifRoom;
+			global::FAB.Droid.Resource.Id.image = global::CheckiePyMobile.Droid.Resource.Id.image;
+			global::FAB.Droid.Resource.Id.info = global::CheckiePyMobile.Droid.Resource.Id.info;
+			global::FAB.Droid.Resource.Id.item_touch_helper_previous_elevation = global::CheckiePyMobile.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::FAB.Droid.Resource.Id.left = global::CheckiePyMobile.Droid.Resource.Id.left;
+			global::FAB.Droid.Resource.Id.line1 = global::CheckiePyMobile.Droid.Resource.Id.line1;
+			global::FAB.Droid.Resource.Id.line3 = global::CheckiePyMobile.Droid.Resource.Id.line3;
+			global::FAB.Droid.Resource.Id.listMode = global::CheckiePyMobile.Droid.Resource.Id.listMode;
+			global::FAB.Droid.Resource.Id.list_item = global::CheckiePyMobile.Droid.Resource.Id.list_item;
+			global::FAB.Droid.Resource.Id.media_actions = global::CheckiePyMobile.Droid.Resource.Id.media_actions;
+			global::FAB.Droid.Resource.Id.middle = global::CheckiePyMobile.Droid.Resource.Id.middle;
+			global::FAB.Droid.Resource.Id.mini = global::CheckiePyMobile.Droid.Resource.Id.mini;
+			global::FAB.Droid.Resource.Id.mr_art = global::CheckiePyMobile.Droid.Resource.Id.mr_art;
+			global::FAB.Droid.Resource.Id.mr_chooser_list = global::CheckiePyMobile.Droid.Resource.Id.mr_chooser_list;
+			global::FAB.Droid.Resource.Id.mr_chooser_route_desc = global::CheckiePyMobile.Droid.Resource.Id.mr_chooser_route_desc;
+			global::FAB.Droid.Resource.Id.mr_chooser_route_icon = global::CheckiePyMobile.Droid.Resource.Id.mr_chooser_route_icon;
+			global::FAB.Droid.Resource.Id.mr_chooser_route_name = global::CheckiePyMobile.Droid.Resource.Id.mr_chooser_route_name;
+			global::FAB.Droid.Resource.Id.mr_close = global::CheckiePyMobile.Droid.Resource.Id.mr_close;
+			global::FAB.Droid.Resource.Id.mr_control_divider = global::CheckiePyMobile.Droid.Resource.Id.mr_control_divider;
+			global::FAB.Droid.Resource.Id.mr_control_play_pause = global::CheckiePyMobile.Droid.Resource.Id.mr_control_play_pause;
+			global::FAB.Droid.Resource.Id.mr_control_subtitle = global::CheckiePyMobile.Droid.Resource.Id.mr_control_subtitle;
+			global::FAB.Droid.Resource.Id.mr_control_title = global::CheckiePyMobile.Droid.Resource.Id.mr_control_title;
+			global::FAB.Droid.Resource.Id.mr_control_title_container = global::CheckiePyMobile.Droid.Resource.Id.mr_control_title_container;
+			global::FAB.Droid.Resource.Id.mr_custom_control = global::CheckiePyMobile.Droid.Resource.Id.mr_custom_control;
+			global::FAB.Droid.Resource.Id.mr_default_control = global::CheckiePyMobile.Droid.Resource.Id.mr_default_control;
+			global::FAB.Droid.Resource.Id.mr_dialog_area = global::CheckiePyMobile.Droid.Resource.Id.mr_dialog_area;
+			global::FAB.Droid.Resource.Id.mr_expandable_area = global::CheckiePyMobile.Droid.Resource.Id.mr_expandable_area;
+			global::FAB.Droid.Resource.Id.mr_group_expand_collapse = global::CheckiePyMobile.Droid.Resource.Id.mr_group_expand_collapse;
+			global::FAB.Droid.Resource.Id.mr_media_main_control = global::CheckiePyMobile.Droid.Resource.Id.mr_media_main_control;
+			global::FAB.Droid.Resource.Id.mr_name = global::CheckiePyMobile.Droid.Resource.Id.mr_name;
+			global::FAB.Droid.Resource.Id.mr_playback_control = global::CheckiePyMobile.Droid.Resource.Id.mr_playback_control;
+			global::FAB.Droid.Resource.Id.mr_title_bar = global::CheckiePyMobile.Droid.Resource.Id.mr_title_bar;
+			global::FAB.Droid.Resource.Id.mr_volume_control = global::CheckiePyMobile.Droid.Resource.Id.mr_volume_control;
+			global::FAB.Droid.Resource.Id.mr_volume_group_list = global::CheckiePyMobile.Droid.Resource.Id.mr_volume_group_list;
+			global::FAB.Droid.Resource.Id.mr_volume_item_icon = global::CheckiePyMobile.Droid.Resource.Id.mr_volume_item_icon;
+			global::FAB.Droid.Resource.Id.mr_volume_slider = global::CheckiePyMobile.Droid.Resource.Id.mr_volume_slider;
+			global::FAB.Droid.Resource.Id.multiply = global::CheckiePyMobile.Droid.Resource.Id.multiply;
+			global::FAB.Droid.Resource.Id.navigation_header_container = global::CheckiePyMobile.Droid.Resource.Id.navigation_header_container;
+			global::FAB.Droid.Resource.Id.never = global::CheckiePyMobile.Droid.Resource.Id.never;
+			global::FAB.Droid.Resource.Id.none = global::CheckiePyMobile.Droid.Resource.Id.none;
+			global::FAB.Droid.Resource.Id.normal = global::CheckiePyMobile.Droid.Resource.Id.normal;
+			global::FAB.Droid.Resource.Id.parallax = global::CheckiePyMobile.Droid.Resource.Id.parallax;
+			global::FAB.Droid.Resource.Id.parentPanel = global::CheckiePyMobile.Droid.Resource.Id.parentPanel;
+			global::FAB.Droid.Resource.Id.pin = global::CheckiePyMobile.Droid.Resource.Id.pin;
+			global::FAB.Droid.Resource.Id.progress_circular = global::CheckiePyMobile.Droid.Resource.Id.progress_circular;
+			global::FAB.Droid.Resource.Id.progress_horizontal = global::CheckiePyMobile.Droid.Resource.Id.progress_horizontal;
+			global::FAB.Droid.Resource.Id.radio = global::CheckiePyMobile.Droid.Resource.Id.radio;
+			global::FAB.Droid.Resource.Id.right = global::CheckiePyMobile.Droid.Resource.Id.right;
+			global::FAB.Droid.Resource.Id.screen = global::CheckiePyMobile.Droid.Resource.Id.screen;
+			global::FAB.Droid.Resource.Id.scroll = global::CheckiePyMobile.Droid.Resource.Id.scroll;
+			global::FAB.Droid.Resource.Id.scrollIndicatorDown = global::CheckiePyMobile.Droid.Resource.Id.scrollIndicatorDown;
+			global::FAB.Droid.Resource.Id.scrollIndicatorUp = global::CheckiePyMobile.Droid.Resource.Id.scrollIndicatorUp;
+			global::FAB.Droid.Resource.Id.scrollView = global::CheckiePyMobile.Droid.Resource.Id.scrollView;
+			global::FAB.Droid.Resource.Id.scrollable = global::CheckiePyMobile.Droid.Resource.Id.scrollable;
+			global::FAB.Droid.Resource.Id.search_badge = global::CheckiePyMobile.Droid.Resource.Id.search_badge;
+			global::FAB.Droid.Resource.Id.search_bar = global::CheckiePyMobile.Droid.Resource.Id.search_bar;
+			global::FAB.Droid.Resource.Id.search_button = global::CheckiePyMobile.Droid.Resource.Id.search_button;
+			global::FAB.Droid.Resource.Id.search_close_btn = global::CheckiePyMobile.Droid.Resource.Id.search_close_btn;
+			global::FAB.Droid.Resource.Id.search_edit_frame = global::CheckiePyMobile.Droid.Resource.Id.search_edit_frame;
+			global::FAB.Droid.Resource.Id.search_go_btn = global::CheckiePyMobile.Droid.Resource.Id.search_go_btn;
+			global::FAB.Droid.Resource.Id.search_mag_icon = global::CheckiePyMobile.Droid.Resource.Id.search_mag_icon;
+			global::FAB.Droid.Resource.Id.search_plate = global::CheckiePyMobile.Droid.Resource.Id.search_plate;
+			global::FAB.Droid.Resource.Id.search_src_text = global::CheckiePyMobile.Droid.Resource.Id.search_src_text;
+			global::FAB.Droid.Resource.Id.search_voice_btn = global::CheckiePyMobile.Droid.Resource.Id.search_voice_btn;
+			global::FAB.Droid.Resource.Id.select_dialog_listview = global::CheckiePyMobile.Droid.Resource.Id.select_dialog_listview;
+			global::FAB.Droid.Resource.Id.shortcut = global::CheckiePyMobile.Droid.Resource.Id.shortcut;
+			global::FAB.Droid.Resource.Id.showCustom = global::CheckiePyMobile.Droid.Resource.Id.showCustom;
+			global::FAB.Droid.Resource.Id.showHome = global::CheckiePyMobile.Droid.Resource.Id.showHome;
+			global::FAB.Droid.Resource.Id.showTitle = global::CheckiePyMobile.Droid.Resource.Id.showTitle;
+			global::FAB.Droid.Resource.Id.snackbar_action = global::CheckiePyMobile.Droid.Resource.Id.snackbar_action;
+			global::FAB.Droid.Resource.Id.snackbar_text = global::CheckiePyMobile.Droid.Resource.Id.snackbar_text;
+			global::FAB.Droid.Resource.Id.snap = global::CheckiePyMobile.Droid.Resource.Id.snap;
+			global::FAB.Droid.Resource.Id.spacer = global::CheckiePyMobile.Droid.Resource.Id.spacer;
+			global::FAB.Droid.Resource.Id.split_action_bar = global::CheckiePyMobile.Droid.Resource.Id.split_action_bar;
+			global::FAB.Droid.Resource.Id.src_atop = global::CheckiePyMobile.Droid.Resource.Id.src_atop;
+			global::FAB.Droid.Resource.Id.src_in = global::CheckiePyMobile.Droid.Resource.Id.src_in;
+			global::FAB.Droid.Resource.Id.src_over = global::CheckiePyMobile.Droid.Resource.Id.src_over;
+			global::FAB.Droid.Resource.Id.start = global::CheckiePyMobile.Droid.Resource.Id.start;
+			global::FAB.Droid.Resource.Id.status_bar_latest_event_content = global::CheckiePyMobile.Droid.Resource.Id.status_bar_latest_event_content;
+			global::FAB.Droid.Resource.Id.submit_area = global::CheckiePyMobile.Droid.Resource.Id.submit_area;
+			global::FAB.Droid.Resource.Id.tabMode = global::CheckiePyMobile.Droid.Resource.Id.tabMode;
+			global::FAB.Droid.Resource.Id.text = global::CheckiePyMobile.Droid.Resource.Id.text;
+			global::FAB.Droid.Resource.Id.text2 = global::CheckiePyMobile.Droid.Resource.Id.text2;
+			global::FAB.Droid.Resource.Id.textSpacerNoButtons = global::CheckiePyMobile.Droid.Resource.Id.textSpacerNoButtons;
+			global::FAB.Droid.Resource.Id.time = global::CheckiePyMobile.Droid.Resource.Id.time;
+			global::FAB.Droid.Resource.Id.title = global::CheckiePyMobile.Droid.Resource.Id.title;
+			global::FAB.Droid.Resource.Id.title_template = global::CheckiePyMobile.Droid.Resource.Id.title_template;
+			global::FAB.Droid.Resource.Id.top = global::CheckiePyMobile.Droid.Resource.Id.top;
+			global::FAB.Droid.Resource.Id.topPanel = global::CheckiePyMobile.Droid.Resource.Id.topPanel;
+			global::FAB.Droid.Resource.Id.touch_outside = global::CheckiePyMobile.Droid.Resource.Id.touch_outside;
+			global::FAB.Droid.Resource.Id.up = global::CheckiePyMobile.Droid.Resource.Id.up;
+			global::FAB.Droid.Resource.Id.useLogo = global::CheckiePyMobile.Droid.Resource.Id.useLogo;
+			global::FAB.Droid.Resource.Id.view_offset_helper = global::CheckiePyMobile.Droid.Resource.Id.view_offset_helper;
+			global::FAB.Droid.Resource.Id.volume_item_container = global::CheckiePyMobile.Droid.Resource.Id.volume_item_container;
+			global::FAB.Droid.Resource.Id.withText = global::CheckiePyMobile.Droid.Resource.Id.withText;
+			global::FAB.Droid.Resource.Id.wrap_content = global::CheckiePyMobile.Droid.Resource.Id.wrap_content;
+			global::FAB.Droid.Resource.Integer.abc_config_activityDefaultDur = global::CheckiePyMobile.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::FAB.Droid.Resource.Integer.abc_config_activityShortDur = global::CheckiePyMobile.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::FAB.Droid.Resource.Integer.abc_max_action_buttons = global::CheckiePyMobile.Droid.Resource.Integer.abc_max_action_buttons;
+			global::FAB.Droid.Resource.Integer.bottom_sheet_slide_duration = global::CheckiePyMobile.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::FAB.Droid.Resource.Integer.cancel_button_image_alpha = global::CheckiePyMobile.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::FAB.Droid.Resource.Integer.design_snackbar_text_max_lines = global::CheckiePyMobile.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::FAB.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::CheckiePyMobile.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::FAB.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::CheckiePyMobile.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::FAB.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::CheckiePyMobile.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::FAB.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::CheckiePyMobile.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::FAB.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::CheckiePyMobile.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::FAB.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::CheckiePyMobile.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::FAB.Droid.Resource.Layout.abc_action_bar_title_item = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::FAB.Droid.Resource.Layout.abc_action_bar_up_container = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::FAB.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::FAB.Droid.Resource.Layout.abc_action_menu_item_layout = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::FAB.Droid.Resource.Layout.abc_action_menu_layout = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_menu_layout;
+			global::FAB.Droid.Resource.Layout.abc_action_mode_bar = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_mode_bar;
+			global::FAB.Droid.Resource.Layout.abc_action_mode_close_item_material = global::CheckiePyMobile.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::FAB.Droid.Resource.Layout.abc_activity_chooser_view = global::CheckiePyMobile.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::FAB.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::CheckiePyMobile.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::FAB.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::CheckiePyMobile.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::FAB.Droid.Resource.Layout.abc_alert_dialog_material = global::CheckiePyMobile.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::FAB.Droid.Resource.Layout.abc_dialog_title_material = global::CheckiePyMobile.Droid.Resource.Layout.abc_dialog_title_material;
+			global::FAB.Droid.Resource.Layout.abc_expanded_menu_layout = global::CheckiePyMobile.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::FAB.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::CheckiePyMobile.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::FAB.Droid.Resource.Layout.abc_list_menu_item_icon = global::CheckiePyMobile.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::FAB.Droid.Resource.Layout.abc_list_menu_item_layout = global::CheckiePyMobile.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::FAB.Droid.Resource.Layout.abc_list_menu_item_radio = global::CheckiePyMobile.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::FAB.Droid.Resource.Layout.abc_popup_menu_item_layout = global::CheckiePyMobile.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::FAB.Droid.Resource.Layout.abc_screen_content_include = global::CheckiePyMobile.Droid.Resource.Layout.abc_screen_content_include;
+			global::FAB.Droid.Resource.Layout.abc_screen_simple = global::CheckiePyMobile.Droid.Resource.Layout.abc_screen_simple;
+			global::FAB.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CheckiePyMobile.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::FAB.Droid.Resource.Layout.abc_screen_toolbar = global::CheckiePyMobile.Droid.Resource.Layout.abc_screen_toolbar;
+			global::FAB.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CheckiePyMobile.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::FAB.Droid.Resource.Layout.abc_search_view = global::CheckiePyMobile.Droid.Resource.Layout.abc_search_view;
+			global::FAB.Droid.Resource.Layout.abc_select_dialog_material = global::CheckiePyMobile.Droid.Resource.Layout.abc_select_dialog_material;
+			global::FAB.Droid.Resource.Layout.design_bottom_sheet_dialog = global::CheckiePyMobile.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::FAB.Droid.Resource.Layout.design_layout_snackbar = global::CheckiePyMobile.Droid.Resource.Layout.design_layout_snackbar;
+			global::FAB.Droid.Resource.Layout.design_layout_snackbar_include = global::CheckiePyMobile.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::FAB.Droid.Resource.Layout.design_layout_tab_icon = global::CheckiePyMobile.Droid.Resource.Layout.design_layout_tab_icon;
+			global::FAB.Droid.Resource.Layout.design_layout_tab_text = global::CheckiePyMobile.Droid.Resource.Layout.design_layout_tab_text;
+			global::FAB.Droid.Resource.Layout.design_menu_item_action_area = global::CheckiePyMobile.Droid.Resource.Layout.design_menu_item_action_area;
+			global::FAB.Droid.Resource.Layout.design_navigation_item = global::CheckiePyMobile.Droid.Resource.Layout.design_navigation_item;
+			global::FAB.Droid.Resource.Layout.design_navigation_item_header = global::CheckiePyMobile.Droid.Resource.Layout.design_navigation_item_header;
+			global::FAB.Droid.Resource.Layout.design_navigation_item_separator = global::CheckiePyMobile.Droid.Resource.Layout.design_navigation_item_separator;
+			global::FAB.Droid.Resource.Layout.design_navigation_item_subheader = global::CheckiePyMobile.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::FAB.Droid.Resource.Layout.design_navigation_menu = global::CheckiePyMobile.Droid.Resource.Layout.design_navigation_menu;
+			global::FAB.Droid.Resource.Layout.design_navigation_menu_item = global::CheckiePyMobile.Droid.Resource.Layout.design_navigation_menu_item;
+			global::FAB.Droid.Resource.Layout.mini_fab = global::CheckiePyMobile.Droid.Resource.Layout.mini_fab;
+			global::FAB.Droid.Resource.Layout.mr_chooser_dialog = global::CheckiePyMobile.Droid.Resource.Layout.mr_chooser_dialog;
+			global::FAB.Droid.Resource.Layout.mr_chooser_list_item = global::CheckiePyMobile.Droid.Resource.Layout.mr_chooser_list_item;
+			global::FAB.Droid.Resource.Layout.mr_controller_material_dialog_b = global::CheckiePyMobile.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::FAB.Droid.Resource.Layout.mr_controller_volume_item = global::CheckiePyMobile.Droid.Resource.Layout.mr_controller_volume_item;
+			global::FAB.Droid.Resource.Layout.mr_playback_control = global::CheckiePyMobile.Droid.Resource.Layout.mr_playback_control;
+			global::FAB.Droid.Resource.Layout.mr_volume_control = global::CheckiePyMobile.Droid.Resource.Layout.mr_volume_control;
+			global::FAB.Droid.Resource.Layout.normal_fab = global::CheckiePyMobile.Droid.Resource.Layout.normal_fab;
+			global::FAB.Droid.Resource.Layout.notification_media_action = global::CheckiePyMobile.Droid.Resource.Layout.notification_media_action;
+			global::FAB.Droid.Resource.Layout.notification_media_cancel_action = global::CheckiePyMobile.Droid.Resource.Layout.notification_media_cancel_action;
+			global::FAB.Droid.Resource.Layout.notification_template_big_media = global::CheckiePyMobile.Droid.Resource.Layout.notification_template_big_media;
+			global::FAB.Droid.Resource.Layout.notification_template_big_media_narrow = global::CheckiePyMobile.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::FAB.Droid.Resource.Layout.notification_template_lines = global::CheckiePyMobile.Droid.Resource.Layout.notification_template_lines;
+			global::FAB.Droid.Resource.Layout.notification_template_media = global::CheckiePyMobile.Droid.Resource.Layout.notification_template_media;
+			global::FAB.Droid.Resource.Layout.notification_template_part_chronometer = global::CheckiePyMobile.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::FAB.Droid.Resource.Layout.notification_template_part_time = global::CheckiePyMobile.Droid.Resource.Layout.notification_template_part_time;
+			global::FAB.Droid.Resource.Layout.select_dialog_item_material = global::CheckiePyMobile.Droid.Resource.Layout.select_dialog_item_material;
+			global::FAB.Droid.Resource.Layout.select_dialog_multichoice_material = global::CheckiePyMobile.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::FAB.Droid.Resource.Layout.select_dialog_singlechoice_material = global::CheckiePyMobile.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::FAB.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::CheckiePyMobile.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::FAB.Droid.Resource.String.abc_action_bar_home_description = global::CheckiePyMobile.Droid.Resource.String.abc_action_bar_home_description;
+			global::FAB.Droid.Resource.String.abc_action_bar_home_description_format = global::CheckiePyMobile.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::FAB.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::CheckiePyMobile.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::FAB.Droid.Resource.String.abc_action_bar_up_description = global::CheckiePyMobile.Droid.Resource.String.abc_action_bar_up_description;
+			global::FAB.Droid.Resource.String.abc_action_menu_overflow_description = global::CheckiePyMobile.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::FAB.Droid.Resource.String.abc_action_mode_done = global::CheckiePyMobile.Droid.Resource.String.abc_action_mode_done;
+			global::FAB.Droid.Resource.String.abc_activity_chooser_view_see_all = global::CheckiePyMobile.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::FAB.Droid.Resource.String.abc_activitychooserview_choose_application = global::CheckiePyMobile.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::FAB.Droid.Resource.String.abc_capital_off = global::CheckiePyMobile.Droid.Resource.String.abc_capital_off;
+			global::FAB.Droid.Resource.String.abc_capital_on = global::CheckiePyMobile.Droid.Resource.String.abc_capital_on;
+			global::FAB.Droid.Resource.String.abc_search_hint = global::CheckiePyMobile.Droid.Resource.String.abc_search_hint;
+			global::FAB.Droid.Resource.String.abc_searchview_description_clear = global::CheckiePyMobile.Droid.Resource.String.abc_searchview_description_clear;
+			global::FAB.Droid.Resource.String.abc_searchview_description_query = global::CheckiePyMobile.Droid.Resource.String.abc_searchview_description_query;
+			global::FAB.Droid.Resource.String.abc_searchview_description_search = global::CheckiePyMobile.Droid.Resource.String.abc_searchview_description_search;
+			global::FAB.Droid.Resource.String.abc_searchview_description_submit = global::CheckiePyMobile.Droid.Resource.String.abc_searchview_description_submit;
+			global::FAB.Droid.Resource.String.abc_searchview_description_voice = global::CheckiePyMobile.Droid.Resource.String.abc_searchview_description_voice;
+			global::FAB.Droid.Resource.String.abc_shareactionprovider_share_with = global::CheckiePyMobile.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::FAB.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::CheckiePyMobile.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::FAB.Droid.Resource.String.abc_toolbar_collapse_description = global::CheckiePyMobile.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::FAB.Droid.Resource.String.appbar_scrolling_view_behavior = global::CheckiePyMobile.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::FAB.Droid.Resource.String.bottom_sheet_behavior = global::CheckiePyMobile.Droid.Resource.String.bottom_sheet_behavior;
+			global::FAB.Droid.Resource.String.character_counter_pattern = global::CheckiePyMobile.Droid.Resource.String.character_counter_pattern;
+			global::FAB.Droid.Resource.String.define_FloatingActionButton = global::CheckiePyMobile.Droid.Resource.String.define_FloatingActionButton;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_author = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_author;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_authorWebsite = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_authorWebsite;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_isOpenSource = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_isOpenSource;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryDescription = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_libraryDescription;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryName = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_libraryName;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryVersion = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_libraryVersion;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryWebsite = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_libraryWebsite;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_licenseId = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_licenseId;
+			global::FAB.Droid.Resource.String.library_FloatingActionButton_repositoryLink = global::CheckiePyMobile.Droid.Resource.String.library_FloatingActionButton_repositoryLink;
+			global::FAB.Droid.Resource.String.library_name = global::CheckiePyMobile.Droid.Resource.String.library_name;
+			global::FAB.Droid.Resource.String.mr_button_content_description = global::CheckiePyMobile.Droid.Resource.String.mr_button_content_description;
+			global::FAB.Droid.Resource.String.mr_chooser_searching = global::CheckiePyMobile.Droid.Resource.String.mr_chooser_searching;
+			global::FAB.Droid.Resource.String.mr_chooser_title = global::CheckiePyMobile.Droid.Resource.String.mr_chooser_title;
+			global::FAB.Droid.Resource.String.mr_controller_casting_screen = global::CheckiePyMobile.Droid.Resource.String.mr_controller_casting_screen;
+			global::FAB.Droid.Resource.String.mr_controller_close_description = global::CheckiePyMobile.Droid.Resource.String.mr_controller_close_description;
+			global::FAB.Droid.Resource.String.mr_controller_collapse_group = global::CheckiePyMobile.Droid.Resource.String.mr_controller_collapse_group;
+			global::FAB.Droid.Resource.String.mr_controller_disconnect = global::CheckiePyMobile.Droid.Resource.String.mr_controller_disconnect;
+			global::FAB.Droid.Resource.String.mr_controller_expand_group = global::CheckiePyMobile.Droid.Resource.String.mr_controller_expand_group;
+			global::FAB.Droid.Resource.String.mr_controller_no_info_available = global::CheckiePyMobile.Droid.Resource.String.mr_controller_no_info_available;
+			global::FAB.Droid.Resource.String.mr_controller_no_media_selected = global::CheckiePyMobile.Droid.Resource.String.mr_controller_no_media_selected;
+			global::FAB.Droid.Resource.String.mr_controller_pause = global::CheckiePyMobile.Droid.Resource.String.mr_controller_pause;
+			global::FAB.Droid.Resource.String.mr_controller_play = global::CheckiePyMobile.Droid.Resource.String.mr_controller_play;
+			global::FAB.Droid.Resource.String.mr_controller_stop = global::CheckiePyMobile.Droid.Resource.String.mr_controller_stop;
+			global::FAB.Droid.Resource.String.mr_system_route_name = global::CheckiePyMobile.Droid.Resource.String.mr_system_route_name;
+			global::FAB.Droid.Resource.String.mr_user_route_category_name = global::CheckiePyMobile.Droid.Resource.String.mr_user_route_category_name;
+			global::FAB.Droid.Resource.String.status_bar_notification_info_overflow = global::CheckiePyMobile.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::FAB.Droid.Resource.Style.AlertDialog_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::FAB.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Animation_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::CheckiePyMobile.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::FAB.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::CheckiePyMobile.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::FAB.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CheckiePyMobile.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::FAB.Droid.Resource.Style.Base_CardView = global::CheckiePyMobile.Droid.Resource.Style.Base_CardView;
+			global::FAB.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::FAB.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CheckiePyMobile.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CheckiePyMobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CheckiePyMobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::FAB.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::CheckiePyMobile.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::FAB.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::CheckiePyMobile.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::FAB.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::FAB.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CheckiePyMobile.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::FAB.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CheckiePyMobile.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::FAB.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::CheckiePyMobile.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::FAB.Droid.Resource.Style.CardView = global::CheckiePyMobile.Droid.Resource.Style.CardView;
+			global::FAB.Droid.Resource.Style.CardView_Dark = global::CheckiePyMobile.Droid.Resource.Style.CardView_Dark;
+			global::FAB.Droid.Resource.Style.CardView_Light = global::CheckiePyMobile.Droid.Resource.Style.CardView_Light;
+			global::FAB.Droid.Resource.Style.Platform_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Platform_AppCompat;
+			global::FAB.Droid.Resource.Style.Platform_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::FAB.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CheckiePyMobile.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::FAB.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Platform_V11_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::FAB.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Platform_V14_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::FAB.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CheckiePyMobile.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::FAB.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CheckiePyMobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::FAB.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CheckiePyMobile.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::FAB.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CheckiePyMobile.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_Counter = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_Error = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_Hint = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::FAB.Droid.Resource.Style.TextAppearance_Design_Tab = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::FAB.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::FAB.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::FAB.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CheckiePyMobile.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::FAB.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::FAB.Droid.Resource.Style.Theme_Design = global::CheckiePyMobile.Droid.Resource.Style.Theme_Design;
+			global::FAB.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::CheckiePyMobile.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::FAB.Droid.Resource.Style.Theme_Design_Light = global::CheckiePyMobile.Droid.Resource.Style.Theme_Design_Light;
+			global::FAB.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CheckiePyMobile.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::FAB.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::FAB.Droid.Resource.Style.Theme_Design_NoActionBar = global::CheckiePyMobile.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::FAB.Droid.Resource.Style.Theme_MediaRouter = global::CheckiePyMobile.Droid.Resource.Style.Theme_MediaRouter;
+			global::FAB.Droid.Resource.Style.Theme_MediaRouter_Light = global::CheckiePyMobile.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::FAB.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::CheckiePyMobile.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::FAB.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::CheckiePyMobile.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat = global::CheckiePyMobile.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CheckiePyMobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::CheckiePyMobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_EditText = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_SearchView = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::FAB.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CheckiePyMobile.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::FAB.Droid.Resource.Style.Widget_Design_AppBarLayout = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::FAB.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::FAB.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::FAB.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::FAB.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::FAB.Droid.Resource.Style.Widget_Design_NavigationView = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::FAB.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::FAB.Droid.Resource.Style.Widget_Design_Snackbar = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::FAB.Droid.Resource.Style.Widget_Design_TabLayout = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::FAB.Droid.Resource.Style.Widget_Design_TextInputLayout = global::CheckiePyMobile.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::FAB.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::CheckiePyMobile.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::FAB.Droid.Resource.Styleable.ActionBar = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar;
+			global::FAB.Droid.Resource.Styleable.ActionBar_background = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_background;
+			global::FAB.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::FAB.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::FAB.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::FAB.Droid.Resource.Styleable.ActionBar_displayOptions = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::FAB.Droid.Resource.Styleable.ActionBar_divider = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_divider;
+			global::FAB.Droid.Resource.Styleable.ActionBar_elevation = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_elevation;
+			global::FAB.Droid.Resource.Styleable.ActionBar_height = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_height;
+			global::FAB.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::FAB.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::FAB.Droid.Resource.Styleable.ActionBar_homeLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::FAB.Droid.Resource.Styleable.ActionBar_icon = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_icon;
+			global::FAB.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::FAB.Droid.Resource.Styleable.ActionBar_itemPadding = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::FAB.Droid.Resource.Styleable.ActionBar_logo = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_logo;
+			global::FAB.Droid.Resource.Styleable.ActionBar_navigationMode = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::FAB.Droid.Resource.Styleable.ActionBar_popupTheme = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::FAB.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::FAB.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::FAB.Droid.Resource.Styleable.ActionBar_subtitle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::FAB.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::FAB.Droid.Resource.Styleable.ActionBar_title = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_title;
+			global::FAB.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::FAB.Droid.Resource.Styleable.ActionBarLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBarLayout;
+			global::FAB.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CheckiePyMobile.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::FAB.Droid.Resource.Styleable.ActionMenuItemView = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMenuItemView;
+			global::FAB.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::FAB.Droid.Resource.Styleable.ActionMenuView = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMenuView;
+			global::FAB.Droid.Resource.Styleable.ActionMode = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode;
+			global::FAB.Droid.Resource.Styleable.ActionMode_background = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode_background;
+			global::FAB.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::FAB.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::FAB.Droid.Resource.Styleable.ActionMode_height = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode_height;
+			global::FAB.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::FAB.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::CheckiePyMobile.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::FAB.Droid.Resource.Styleable.ActivityChooserView = global::CheckiePyMobile.Droid.Resource.Styleable.ActivityChooserView;
+			global::FAB.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::FAB.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CheckiePyMobile.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::FAB.Droid.Resource.Styleable.AlertDialog = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog;
+			global::FAB.Droid.Resource.Styleable.AlertDialog_android_layout = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::FAB.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::FAB.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::FAB.Droid.Resource.Styleable.AlertDialog_listLayout = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::FAB.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::FAB.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CheckiePyMobile.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout_android_background = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout_elevation = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout_expanded = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout_LayoutParams = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::FAB.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::CheckiePyMobile.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::FAB.Droid.Resource.Styleable.AppCompatImageView = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatImageView;
+			global::FAB.Droid.Resource.Styleable.AppCompatImageView_android_src = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::FAB.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::FAB.Droid.Resource.Styleable.AppCompatTextView = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTextView;
+			global::FAB.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::FAB.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CheckiePyMobile.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::FAB.Droid.Resource.Styleable.BottomSheetBehavior_Params = global::CheckiePyMobile.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::FAB.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::CheckiePyMobile.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::FAB.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::CheckiePyMobile.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::FAB.Droid.Resource.Styleable.ButtonBarLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ButtonBarLayout;
+			global::FAB.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::CheckiePyMobile.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::FAB.Droid.Resource.Styleable.CardView = global::CheckiePyMobile.Droid.Resource.Styleable.CardView;
+			global::FAB.Droid.Resource.Styleable.CardView_android_minHeight = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::FAB.Droid.Resource.Styleable.CardView_android_minWidth = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::FAB.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::FAB.Droid.Resource.Styleable.CardView_cardCornerRadius = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::FAB.Droid.Resource.Styleable.CardView_cardElevation = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_cardElevation;
+			global::FAB.Droid.Resource.Styleable.CardView_cardMaxElevation = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::FAB.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::FAB.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::FAB.Droid.Resource.Styleable.CardView_contentPadding = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_contentPadding;
+			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingRight = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingTop = global::CheckiePyMobile.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::FAB.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::FAB.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::FAB.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CheckiePyMobile.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::FAB.Droid.Resource.Styleable.CompoundButton = global::CheckiePyMobile.Droid.Resource.Styleable.CompoundButton;
+			global::FAB.Droid.Resource.Styleable.CompoundButton_android_button = global::CheckiePyMobile.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::FAB.Droid.Resource.Styleable.CompoundButton_buttonTint = global::CheckiePyMobile.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::FAB.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::CheckiePyMobile.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::CheckiePyMobile.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::FAB.Droid.Resource.Styleable.DesignTheme = global::CheckiePyMobile.Droid.Resource.Styleable.DesignTheme;
+			global::FAB.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::CheckiePyMobile.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::FAB.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::CheckiePyMobile.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::FAB.Droid.Resource.Styleable.DesignTheme_textColorError = global::CheckiePyMobile.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_color = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::CheckiePyMobile.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_elevation = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_shadow = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fab_shadow;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_size = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_fab_size;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::FAB.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CheckiePyMobile.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CheckiePyMobile.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CheckiePyMobile.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CheckiePyMobile.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CheckiePyMobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::FAB.Droid.Resource.Styleable.ListPopupWindow = global::CheckiePyMobile.Droid.Resource.Styleable.ListPopupWindow;
+			global::FAB.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CheckiePyMobile.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::FAB.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CheckiePyMobile.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::FAB.Droid.Resource.Styleable.MediaRouteButton = global::CheckiePyMobile.Droid.Resource.Styleable.MediaRouteButton;
+			global::FAB.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::CheckiePyMobile.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::FAB.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::CheckiePyMobile.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::FAB.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::CheckiePyMobile.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::FAB.Droid.Resource.Styleable.MenuGroup = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup;
+			global::FAB.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::FAB.Droid.Resource.Styleable.MenuGroup_android_enabled = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::FAB.Droid.Resource.Styleable.MenuGroup_android_id = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::FAB.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::FAB.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::FAB.Droid.Resource.Styleable.MenuGroup_android_visible = global::CheckiePyMobile.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::FAB.Droid.Resource.Styleable.MenuItem = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem;
+			global::FAB.Droid.Resource.Styleable.MenuItem_actionLayout = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::FAB.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::FAB.Droid.Resource.Styleable.MenuItem_actionViewClass = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_checkable = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_checked = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_enabled = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_icon = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_id = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_id;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_onClick = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_title = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_title;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::FAB.Droid.Resource.Styleable.MenuItem_android_visible = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::FAB.Droid.Resource.Styleable.MenuItem_showAsAction = global::CheckiePyMobile.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::FAB.Droid.Resource.Styleable.MenuView = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_headerBackground = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_itemBackground = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::FAB.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::FAB.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::CheckiePyMobile.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::FAB.Droid.Resource.Styleable.NavigationView = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView;
+			global::FAB.Droid.Resource.Styleable.NavigationView_android_background = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_android_background;
+			global::FAB.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::FAB.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::FAB.Droid.Resource.Styleable.NavigationView_elevation = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_elevation;
+			global::FAB.Droid.Resource.Styleable.NavigationView_headerLayout = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::FAB.Droid.Resource.Styleable.NavigationView_itemBackground = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::FAB.Droid.Resource.Styleable.NavigationView_itemIconTint = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::FAB.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::FAB.Droid.Resource.Styleable.NavigationView_itemTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::FAB.Droid.Resource.Styleable.NavigationView_menu = global::CheckiePyMobile.Droid.Resource.Styleable.NavigationView_menu;
+			global::FAB.Droid.Resource.Styleable.PopupWindow = global::CheckiePyMobile.Droid.Resource.Styleable.PopupWindow;
+			global::FAB.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::CheckiePyMobile.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::FAB.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::CheckiePyMobile.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::FAB.Droid.Resource.Styleable.PopupWindowBackgroundState = global::CheckiePyMobile.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::FAB.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CheckiePyMobile.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::FAB.Droid.Resource.Styleable.RecyclerView = global::CheckiePyMobile.Droid.Resource.Styleable.RecyclerView;
+			global::FAB.Droid.Resource.Styleable.RecyclerView_android_orientation = global::CheckiePyMobile.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::FAB.Droid.Resource.Styleable.RecyclerView_layoutManager = global::CheckiePyMobile.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::FAB.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::CheckiePyMobile.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::FAB.Droid.Resource.Styleable.RecyclerView_spanCount = global::CheckiePyMobile.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::FAB.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::CheckiePyMobile.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::FAB.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::CheckiePyMobile.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::FAB.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CheckiePyMobile.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::FAB.Droid.Resource.Styleable.ScrollingViewBehavior_Params = global::CheckiePyMobile.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::FAB.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::CheckiePyMobile.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::FAB.Droid.Resource.Styleable.SearchView = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView;
+			global::FAB.Droid.Resource.Styleable.SearchView_android_focusable = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::FAB.Droid.Resource.Styleable.SearchView_android_imeOptions = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::FAB.Droid.Resource.Styleable.SearchView_android_inputType = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::FAB.Droid.Resource.Styleable.SearchView_android_maxWidth = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::FAB.Droid.Resource.Styleable.SearchView_closeIcon = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::FAB.Droid.Resource.Styleable.SearchView_commitIcon = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::FAB.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::FAB.Droid.Resource.Styleable.SearchView_goIcon = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_goIcon;
+			global::FAB.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::FAB.Droid.Resource.Styleable.SearchView_layout = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_layout;
+			global::FAB.Droid.Resource.Styleable.SearchView_queryBackground = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::FAB.Droid.Resource.Styleable.SearchView_queryHint = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_queryHint;
+			global::FAB.Droid.Resource.Styleable.SearchView_searchHintIcon = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::FAB.Droid.Resource.Styleable.SearchView_searchIcon = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::FAB.Droid.Resource.Styleable.SearchView_submitBackground = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::FAB.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::FAB.Droid.Resource.Styleable.SearchView_voiceIcon = global::CheckiePyMobile.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::FAB.Droid.Resource.Styleable.SnackbarLayout = global::CheckiePyMobile.Droid.Resource.Styleable.SnackbarLayout;
+			global::FAB.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CheckiePyMobile.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::FAB.Droid.Resource.Styleable.SnackbarLayout_elevation = global::CheckiePyMobile.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::FAB.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CheckiePyMobile.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::FAB.Droid.Resource.Styleable.Spinner = global::CheckiePyMobile.Droid.Resource.Styleable.Spinner;
+			global::FAB.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::CheckiePyMobile.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::FAB.Droid.Resource.Styleable.Spinner_android_entries = global::CheckiePyMobile.Droid.Resource.Styleable.Spinner_android_entries;
+			global::FAB.Droid.Resource.Styleable.Spinner_android_popupBackground = global::CheckiePyMobile.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::FAB.Droid.Resource.Styleable.Spinner_android_prompt = global::CheckiePyMobile.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::FAB.Droid.Resource.Styleable.Spinner_popupTheme = global::CheckiePyMobile.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_showText = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::FAB.Droid.Resource.Styleable.SwitchCompat_track = global::CheckiePyMobile.Droid.Resource.Styleable.SwitchCompat_track;
+			global::FAB.Droid.Resource.Styleable.TabItem = global::CheckiePyMobile.Droid.Resource.Styleable.TabItem;
+			global::FAB.Droid.Resource.Styleable.TabItem_android_icon = global::CheckiePyMobile.Droid.Resource.Styleable.TabItem_android_icon;
+			global::FAB.Droid.Resource.Styleable.TabItem_android_layout = global::CheckiePyMobile.Droid.Resource.Styleable.TabItem_android_layout;
+			global::FAB.Droid.Resource.Styleable.TabItem_android_text = global::CheckiePyMobile.Droid.Resource.Styleable.TabItem_android_text;
+			global::FAB.Droid.Resource.Styleable.TabLayout = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabBackground = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabContentStart = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabGravity = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabMode = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabPadding = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::FAB.Droid.Resource.Styleable.TabLayout_tabTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::FAB.Droid.Resource.Styleable.TextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_textColor = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_textSize = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_android_typeface = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::FAB.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::CheckiePyMobile.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_android_hint = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::FAB.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::FAB.Droid.Resource.Styleable.Toolbar = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar;
+			global::FAB.Droid.Resource.Styleable.Toolbar_android_gravity = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::FAB.Droid.Resource.Styleable.Toolbar_android_minHeight = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::FAB.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::FAB.Droid.Resource.Styleable.Toolbar_collapseIcon = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::FAB.Droid.Resource.Styleable.Toolbar_logo = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_logo;
+			global::FAB.Droid.Resource.Styleable.Toolbar_logoDescription = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::FAB.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::FAB.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::FAB.Droid.Resource.Styleable.Toolbar_navigationIcon = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::FAB.Droid.Resource.Styleable.Toolbar_popupTheme = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::FAB.Droid.Resource.Styleable.Toolbar_subtitle = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::FAB.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::FAB.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::FAB.Droid.Resource.Styleable.Toolbar_title = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_title;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleMargins = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::FAB.Droid.Resource.Styleable.Toolbar_titleTextColor = global::CheckiePyMobile.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::FAB.Droid.Resource.Styleable.View = global::CheckiePyMobile.Droid.Resource.Styleable.View;
+			global::FAB.Droid.Resource.Styleable.View_android_focusable = global::CheckiePyMobile.Droid.Resource.Styleable.View_android_focusable;
+			global::FAB.Droid.Resource.Styleable.View_android_theme = global::CheckiePyMobile.Droid.Resource.Styleable.View_android_theme;
+			global::FAB.Droid.Resource.Styleable.View_paddingEnd = global::CheckiePyMobile.Droid.Resource.Styleable.View_paddingEnd;
+			global::FAB.Droid.Resource.Styleable.View_paddingStart = global::CheckiePyMobile.Droid.Resource.Styleable.View_paddingStart;
+			global::FAB.Droid.Resource.Styleable.View_theme = global::CheckiePyMobile.Droid.Resource.Styleable.View_theme;
+			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper = global::CheckiePyMobile.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::CheckiePyMobile.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CheckiePyMobile.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CheckiePyMobile.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::FAB.Droid.Resource.Styleable.ViewStubCompat = global::CheckiePyMobile.Droid.Resource.Styleable.ViewStubCompat;
+			global::FAB.Droid.Resource.Styleable.ViewStubCompat_android_id = global::CheckiePyMobile.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::FAB.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CheckiePyMobile.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::FAB.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::CheckiePyMobile.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::CheckiePyMobile.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -497,6 +2314,24 @@ namespace CheckiePyMobile.Droid
 			
 			// aapt resource value: 0x7f010115
 			public const int fabSize = 2130772245;
+			
+			// aapt resource value: 0x7f01013e
+			public const int fab_colorDisabled = 2130772286;
+			
+			// aapt resource value: 0x7f01013d
+			public const int fab_colorNormal = 2130772285;
+			
+			// aapt resource value: 0x7f01013c
+			public const int fab_colorPressed = 2130772284;
+			
+			// aapt resource value: 0x7f01013f
+			public const int fab_colorRipple = 2130772287;
+			
+			// aapt resource value: 0x7f010140
+			public const int fab_shadow = 2130772288;
+			
+			// aapt resource value: 0x7f010141
+			public const int fab_size = 2130772289;
 			
 			// aapt resource value: 0x7f010119
 			public const int foregroundInsidePadding = 2130772249;
@@ -1091,32 +2926,32 @@ namespace CheckiePyMobile.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0048
-			public const int abc_background_cache_hint_selector_material_dark = 2131427400;
-			
 			// aapt resource value: 0x7f0b0049
-			public const int abc_background_cache_hint_selector_material_light = 2131427401;
+			public const int abc_background_cache_hint_selector_material_dark = 2131427401;
 			
 			// aapt resource value: 0x7f0b004a
-			public const int abc_color_highlight_material = 2131427402;
+			public const int abc_background_cache_hint_selector_material_light = 2131427402;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int abc_color_highlight_material = 2131427403;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int abc_input_method_navigation_guard = 2131427332;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int abc_primary_text_disable_only_material_dark = 2131427403;
-			
 			// aapt resource value: 0x7f0b004c
-			public const int abc_primary_text_disable_only_material_light = 2131427404;
+			public const int abc_primary_text_disable_only_material_dark = 2131427404;
 			
 			// aapt resource value: 0x7f0b004d
-			public const int abc_primary_text_material_dark = 2131427405;
+			public const int abc_primary_text_disable_only_material_light = 2131427405;
 			
 			// aapt resource value: 0x7f0b004e
-			public const int abc_primary_text_material_light = 2131427406;
+			public const int abc_primary_text_material_dark = 2131427406;
 			
 			// aapt resource value: 0x7f0b004f
-			public const int abc_search_url_text = 2131427407;
+			public const int abc_primary_text_material_light = 2131427407;
+			
+			// aapt resource value: 0x7f0b0050
+			public const int abc_search_url_text = 2131427408;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int abc_search_url_text_normal = 2131427333;
@@ -1127,11 +2962,11 @@ namespace CheckiePyMobile.Droid
 			// aapt resource value: 0x7f0b0007
 			public const int abc_search_url_text_selected = 2131427335;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_secondary_text_material_dark = 2131427408;
-			
 			// aapt resource value: 0x7f0b0051
-			public const int abc_secondary_text_material_light = 2131427409;
+			public const int abc_secondary_text_material_dark = 2131427409;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int abc_secondary_text_material_light = 2131427410;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int accent_material_dark = 2131427336;
@@ -1228,6 +3063,9 @@ namespace CheckiePyMobile.Droid
 			
 			// aapt resource value: 0x7f0b0019
 			public const int dim_foreground_material_light = 2131427353;
+			
+			// aapt resource value: 0x7f0b0048
+			public const int fab_material_blue_500 = 2131427400;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int foreground_material_dark = 2131427354;
@@ -1331,11 +3169,11 @@ namespace CheckiePyMobile.Droid
 			// aapt resource value: 0x7f0b003b
 			public const int switch_thumb_disabled_material_light = 2131427387;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int switch_thumb_material_dark = 2131427410;
-			
 			// aapt resource value: 0x7f0b0053
-			public const int switch_thumb_material_light = 2131427411;
+			public const int switch_thumb_material_dark = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int switch_thumb_material_light = 2131427412;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int switch_thumb_normal_material_dark = 2131427388;
@@ -1659,6 +3497,21 @@ namespace CheckiePyMobile.Droid
 			// aapt resource value: 0x7f060050
 			public const int disabled_alpha_material_light = 2131099728;
 			
+			// aapt resource value: 0x7f060078
+			public const int fab_elevation_lollipop = 2131099768;
+			
+			// aapt resource value: 0x7f060077
+			public const int fab_scroll_threshold = 2131099767;
+			
+			// aapt resource value: 0x7f060076
+			public const int fab_shadow_size = 2131099766;
+			
+			// aapt resource value: 0x7f060075
+			public const int fab_size_mini = 2131099765;
+			
+			// aapt resource value: 0x7f060074
+			public const int fab_size_normal = 2131099764;
+			
 			// aapt resource value: 0x7f060051
 			public const int highlight_alpha_material_colored = 2131099729;
 			
@@ -1949,259 +3802,271 @@ namespace CheckiePyMobile.Droid
 			public const int design_snackbar_background = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int ic_audiotrack = 2130837581;
+			public const int fab_shadow = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_audiotrack_light = 2130837582;
+			public const int fab_shadow_mini = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_bluetooth_grey = 2130837583;
+			public const int ic_add_white_36dp = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_bluetooth_white = 2130837584;
+			public const int ic_audiotrack = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_cast_dark = 2130837585;
+			public const int ic_audiotrack_light = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_cast_disabled_light = 2130837586;
+			public const int ic_bluetooth_grey = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_cast_grey = 2130837587;
+			public const int ic_bluetooth_white = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_cast_light = 2130837588;
+			public const int ic_cast_dark = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_cast_off_light = 2130837589;
+			public const int ic_cast_disabled_light = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int ic_cast_on_0_light = 2130837590;
+			public const int ic_cast_grey = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int ic_cast_on_1_light = 2130837591;
+			public const int ic_cast_light = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int ic_cast_on_2_light = 2130837592;
+			public const int ic_cast_off_light = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int ic_cast_on_light = 2130837593;
+			public const int ic_cast_on_0_light = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_cast_white = 2130837594;
+			public const int ic_cast_on_1_light = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_close_dark = 2130837595;
+			public const int ic_cast_on_2_light = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_close_light = 2130837596;
+			public const int ic_cast_on_light = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_collapse = 2130837597;
+			public const int ic_cast_white = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_collapse_00000 = 2130837598;
+			public const int ic_close_dark = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_collapse_00001 = 2130837599;
+			public const int ic_close_light = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_collapse_00002 = 2130837600;
+			public const int ic_collapse = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_collapse_00003 = 2130837601;
+			public const int ic_collapse_00000 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_collapse_00004 = 2130837602;
+			public const int ic_collapse_00001 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_collapse_00005 = 2130837603;
+			public const int ic_collapse_00002 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_collapse_00006 = 2130837604;
+			public const int ic_collapse_00003 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_collapse_00007 = 2130837605;
+			public const int ic_collapse_00004 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_collapse_00008 = 2130837606;
+			public const int ic_collapse_00005 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_collapse_00009 = 2130837607;
+			public const int ic_collapse_00006 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_collapse_00010 = 2130837608;
+			public const int ic_collapse_00007 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_collapse_00011 = 2130837609;
+			public const int ic_collapse_00008 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_collapse_00012 = 2130837610;
+			public const int ic_collapse_00009 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_collapse_00013 = 2130837611;
+			public const int ic_collapse_00010 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_collapse_00014 = 2130837612;
+			public const int ic_collapse_00011 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_collapse_00015 = 2130837613;
+			public const int ic_collapse_00012 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_expand = 2130837614;
+			public const int ic_collapse_00013 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_expand_00000 = 2130837615;
+			public const int ic_collapse_00014 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_expand_00001 = 2130837616;
+			public const int ic_collapse_00015 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_expand_00002 = 2130837617;
+			public const int ic_expand = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_expand_00003 = 2130837618;
+			public const int ic_expand_00000 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_expand_00004 = 2130837619;
+			public const int ic_expand_00001 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_expand_00005 = 2130837620;
+			public const int ic_expand_00002 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_expand_00006 = 2130837621;
+			public const int ic_expand_00003 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_expand_00007 = 2130837622;
+			public const int ic_expand_00004 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_expand_00008 = 2130837623;
+			public const int ic_expand_00005 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_expand_00009 = 2130837624;
+			public const int ic_expand_00006 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_expand_00010 = 2130837625;
+			public const int ic_expand_00007 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_expand_00011 = 2130837626;
+			public const int ic_expand_00008 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_expand_00012 = 2130837627;
+			public const int ic_expand_00009 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_expand_00013 = 2130837628;
+			public const int ic_expand_00010 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_expand_00014 = 2130837629;
+			public const int ic_expand_00011 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_expand_00015 = 2130837630;
+			public const int ic_expand_00012 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_launcher = 2130837631;
+			public const int ic_expand_00013 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause = 2130837632;
+			public const int ic_expand_00014 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_play = 2130837633;
+			public const int ic_expand_00015 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_route_disabled_mono_dark = 2130837634;
+			public const int ic_launcher = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_route_off_mono_dark = 2130837635;
+			public const int ic_media_pause = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_route_on_0_mono_dark = 2130837636;
+			public const int ic_media_play = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_route_on_1_mono_dark = 2130837637;
+			public const int ic_media_route_disabled_mono_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_route_on_2_mono_dark = 2130837638;
+			public const int ic_media_route_off_mono_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_media_route_on_mono_dark = 2130837639;
+			public const int ic_media_route_on_0_mono_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_pause_dark = 2130837640;
+			public const int ic_media_route_on_1_mono_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_pause_light = 2130837641;
+			public const int ic_media_route_on_2_mono_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_play_dark = 2130837642;
+			public const int ic_media_route_on_mono_dark = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_play_light = 2130837643;
+			public const int ic_pause_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_speaker_dark = 2130837644;
+			public const int ic_pause_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_speaker_group_dark = 2130837645;
+			public const int ic_play_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_speaker_group_light = 2130837646;
+			public const int ic_play_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_speaker_light = 2130837647;
+			public const int ic_refresh_white_36dp = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_tv_dark = 2130837648;
+			public const int ic_speaker_dark = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_tv_light = 2130837649;
+			public const int ic_speaker_group_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int mr_dialog_material_background_dark = 2130837650;
+			public const int ic_speaker_group_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int mr_dialog_material_background_light = 2130837651;
+			public const int ic_speaker_light = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int mr_ic_audiotrack_light = 2130837652;
+			public const int ic_tv_dark = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int mr_ic_cast_dark = 2130837653;
+			public const int ic_tv_light = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int mr_ic_cast_light = 2130837654;
+			public const int mr_dialog_material_background_dark = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int mr_ic_close_dark = 2130837655;
+			public const int mr_dialog_material_background_light = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int mr_ic_close_light = 2130837656;
+			public const int mr_ic_audiotrack_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837657;
+			public const int mr_ic_cast_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int mr_ic_media_route_connecting_mono_light = 2130837658;
+			public const int mr_ic_cast_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int mr_ic_media_route_mono_dark = 2130837659;
+			public const int mr_ic_close_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int mr_ic_media_route_mono_light = 2130837660;
+			public const int mr_ic_close_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int mr_ic_pause_dark = 2130837661;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int mr_ic_pause_light = 2130837662;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int mr_ic_play_dark = 2130837663;
+			public const int mr_ic_media_route_mono_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int mr_ic_play_light = 2130837664;
+			public const int mr_ic_media_route_mono_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int notification_template_icon_bg = 2130837665;
+			public const int mr_ic_pause_dark = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int mr_ic_pause_light = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int mr_ic_play_dark = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int mr_ic_play_light = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int notification_template_icon_bg = 2130837669;
 			
 			static Drawable()
 			{
@@ -2865,64 +4730,70 @@ namespace CheckiePyMobile.Droid
 			public const int design_navigation_menu_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int mr_chooser_dialog = 2130903077;
+			public const int mini_fab = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int mr_chooser_list_item = 2130903078;
+			public const int mr_chooser_dialog = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int mr_controller_material_dialog_b = 2130903079;
+			public const int mr_chooser_list_item = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int mr_controller_volume_item = 2130903080;
+			public const int mr_controller_material_dialog_b = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int mr_playback_control = 2130903081;
+			public const int mr_controller_volume_item = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int mr_volume_control = 2130903082;
+			public const int mr_playback_control = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_media_action = 2130903083;
+			public const int mr_volume_control = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_media_cancel_action = 2130903084;
+			public const int normal_fab = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_template_big_media = 2130903085;
+			public const int notification_media_action = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_template_big_media_narrow = 2130903086;
+			public const int notification_media_cancel_action = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_template_lines = 2130903087;
+			public const int notification_template_big_media = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_template_media = 2130903088;
+			public const int notification_template_big_media_narrow = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_part_chronometer = 2130903089;
+			public const int notification_template_lines = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_part_time = 2130903090;
+			public const int notification_template_media = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int select_dialog_item_material = 2130903091;
+			public const int notification_template_part_chronometer = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int select_dialog_multichoice_material = 2130903092;
+			public const int notification_template_part_time = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int select_dialog_singlechoice_material = 2130903093;
+			public const int select_dialog_item_material = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int support_simple_spinner_dropdown_item = 2130903094;
+			public const int select_dialog_multichoice_material = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int Tabbar = 2130903095;
+			public const int select_dialog_singlechoice_material = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int Toolbar = 2130903096;
+			public const int support_simple_spinner_dropdown_item = 2130903096;
+			
+			// aapt resource value: 0x7f030039
+			public const int Tabbar = 2130903097;
+			
+			// aapt resource value: 0x7f03003a
+			public const int Toolbar = 2130903098;
 			
 			static Layout()
 			{
@@ -3002,6 +4873,39 @@ namespace CheckiePyMobile.Droid
 			
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
+			
+			// aapt resource value: 0x7f080026
+			public const int define_FloatingActionButton = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public const int library_FloatingActionButton_author = 2131230759;
+			
+			// aapt resource value: 0x7f080028
+			public const int library_FloatingActionButton_authorWebsite = 2131230760;
+			
+			// aapt resource value: 0x7f08002d
+			public const int library_FloatingActionButton_isOpenSource = 2131230765;
+			
+			// aapt resource value: 0x7f08002a
+			public const int library_FloatingActionButton_libraryDescription = 2131230762;
+			
+			// aapt resource value: 0x7f080029
+			public const int library_FloatingActionButton_libraryName = 2131230761;
+			
+			// aapt resource value: 0x7f08002c
+			public const int library_FloatingActionButton_libraryVersion = 2131230764;
+			
+			// aapt resource value: 0x7f08002b
+			public const int library_FloatingActionButton_libraryWebsite = 2131230763;
+			
+			// aapt resource value: 0x7f08002f
+			public const int library_FloatingActionButton_licenseId = 2131230767;
+			
+			// aapt resource value: 0x7f08002e
+			public const int library_FloatingActionButton_repositoryLink = 2131230766;
+			
+			// aapt resource value: 0x7f080030
+			public const int library_name = 2131230768;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
@@ -5116,7 +7020,13 @@ namespace CheckiePyMobile.Droid
 					2130772245,
 					2130772246,
 					2130772247,
-					2130772248};
+					2130772248,
+					2130772284,
+					2130772285,
+					2130772286,
+					2130772287,
+					2130772288,
+					2130772289};
 			
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTint = 1;
@@ -5132,6 +7042,24 @@ namespace CheckiePyMobile.Droid
 			
 			// aapt resource value: 4
 			public const int FloatingActionButton_fabSize = 4;
+			
+			// aapt resource value: 10
+			public const int FloatingActionButton_fab_colorDisabled = 10;
+			
+			// aapt resource value: 9
+			public const int FloatingActionButton_fab_colorNormal = 9;
+			
+			// aapt resource value: 8
+			public const int FloatingActionButton_fab_colorPressed = 8;
+			
+			// aapt resource value: 11
+			public const int FloatingActionButton_fab_colorRipple = 11;
+			
+			// aapt resource value: 12
+			public const int FloatingActionButton_fab_shadow = 12;
+			
+			// aapt resource value: 13
+			public const int FloatingActionButton_fab_size = 13;
 			
 			// aapt resource value: 5
 			public const int FloatingActionButton_pressedTranslationZ = 5;

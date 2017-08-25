@@ -117,6 +117,14 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="FAB.Forms, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\FAB.Forms.2.1.1\lib\Xamarin.iOS10\FAB.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FAB.iOS, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\FAB.Forms.2.1.1\lib\Xamarin.iOS10\FAB.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />

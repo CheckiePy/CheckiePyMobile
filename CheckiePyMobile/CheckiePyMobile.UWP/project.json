@@ -1,5 +1,6 @@
 ﻿{
   "dependencies": {
+    "FAB.Forms": "2.1.1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Xamarin.Forms": "2.3.4.224"
   },
