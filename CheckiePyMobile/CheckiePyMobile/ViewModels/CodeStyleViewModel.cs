@@ -20,7 +20,9 @@ namespace CheckiePyMobile.ViewModels
 
         private ObservableCollection<CodeStyleModel> _codeStyles;
 
-        public ICommand OpenCreateCodeStylePopupCommand { get; set; }
+        public ICommand OpenCreateCodeStylePopupCommand { get; private set; }
+
+        public ICommand DeleteCommand { get; private set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -45,8 +47,32 @@ namespace CheckiePyMobile.ViewModels
             _networkService = networkService;
 
             OpenCreateCodeStylePopupCommand = new Command(OpenCreateCodeStylePopup);
+            DeleteCommand = new Command(Delete);
 
             MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CreatedCodeStyle", HandleCodeStyleCreation);
+        }
+
+        private async void Delete(object obj)
+        {
+            var codeStyle = obj as CodeStyleModel;
+            if (codeStyle == null)
+            {
+                Debug.WriteLine("Wrong code style delete param type");
+                return;
+            }
+            var id = await _networkService.DeleteCodeStyleAsync(new IdRequestModel { Id = codeStyle.Id });
+            if (id == null)
+            {
+                await _page.DisplayAlert("Error", "An error occurred during request execution", "Close");
+            }
+            else if (id.Detail == null)
+            {
+                CodeStyles.Remove(codeStyle);
+            }
+            else
+            {
+                Debug.WriteLine(id.Detail);
+            }
         }
 
         private void HandleCodeStyleCreation(CreateCodeStylePopupViewModel createCodeStylePopupViewModel, CodeStyleModel codeStyleModel)

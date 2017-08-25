@@ -56,6 +56,11 @@ namespace CheckiePyMobile.Services
             return await GetAsync<ResponseModel<CodeStyleModel>>($"/code_style/read/{id}/");
         }
 
+        public async Task<ResponseModel<int>> DeleteCodeStyleAsync(IdRequestModel request)
+        {
+            return await PostAsync<ResponseModel<int>>("/code_style/delete/", JsonConvert.SerializeObject(request));
+        }
+
         private async Task<T> GetAsync<T>(string url) where T : class 
         {
             try

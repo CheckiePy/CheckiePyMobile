@@ -58,5 +58,10 @@ namespace CheckiePyMobile.Services
         {
             throw new System.NotImplementedException();
         }
+
+        public Task<ResponseModel<int>> DeleteCodeStyleAsync(IdRequestModel request)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

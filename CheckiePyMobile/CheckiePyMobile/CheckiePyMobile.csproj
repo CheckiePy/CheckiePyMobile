@@ -41,6 +41,7 @@
     <Compile Include="Helpers\LoggingHandler.cs" />
     <Compile Include="Models\CodeStyleModel.cs" />
     <Compile Include="Models\CodeStyleRequestModel.cs" />
+    <Compile Include="Models\IdRequestModel.cs" />
     <Compile Include="Models\RepositoryModel.cs" />
     <Compile Include="Models\ResponseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
