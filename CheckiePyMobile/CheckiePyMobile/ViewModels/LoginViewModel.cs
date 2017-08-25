@@ -51,7 +51,7 @@ namespace CheckiePyMobile.ViewModels
         public void FinishAuthentication(string token)
         {
             _networkService.Token = token;
-            Application.Current.MainPage = new MainPage();
+            Application.Current.MainPage = new NavigationPage(new MainPage());
         }
     }
 }

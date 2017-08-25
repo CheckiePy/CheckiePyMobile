@@ -4,7 +4,12 @@
             xmlns:views="clr-namespace:CheckiePyMobile.Views;assembly=CheckiePyMobile"
             x:Class="CheckiePyMobile.Views.MainPage"
             BarBackgroundColor="#14dcaf"
-            BarTextColor="White">
+            BarTextColor="White"
+            Title="CheckiePy">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Order="Secondary"
+                     Text="Log out"/>
+    </TabbedPage.ToolbarItems>
     <views:CodeStylePage/>
     <views:RepositoryPage/>
 </TabbedPage>

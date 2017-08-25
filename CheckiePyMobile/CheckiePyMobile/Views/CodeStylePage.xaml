@@ -29,6 +29,7 @@
                 </ListView>
             </ContentView>
             <forms:FloatingActionButton Size="Normal"
+                                        Command="{Binding OpenCreateCodeStylePopupCommand}"
                                         Source="ic_add_white_36dp.png"
                                         NormalColor="#14dcaf"
                                         RippleColor="White"
