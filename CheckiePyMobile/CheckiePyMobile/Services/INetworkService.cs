@@ -10,5 +10,6 @@ namespace CheckiePyMobile.Services
         Task<ResponseModel<List<RepositoryModel>>> GetRepositoriesAsync();
         Task<ResponseModel<List<CodeStyleModel>>> GetCodeStylesAsync();
         Task<ResponseModel<CodeStyleModel>> CreateCodeStyleAsync(CodeStyleRequestModel request);
+        Task<ResponseModel<CodeStyleModel>> ReadCodeStyleAsync(int id);
     }
 }

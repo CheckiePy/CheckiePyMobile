@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -47,10 +46,10 @@ namespace CheckiePyMobile.ViewModels
 
             OpenCreateCodeStylePopupCommand = new Command(OpenCreateCodeStylePopup);
 
-            MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CreatedCodeStyle", Callback);
+            MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CreatedCodeStyle", HandleCodeStyleCreation);
         }
 
-        private void Callback(CreateCodeStylePopupViewModel createCodeStylePopupViewModel, CodeStyleModel codeStyleModel)
+        private void HandleCodeStyleCreation(CreateCodeStylePopupViewModel createCodeStylePopupViewModel, CodeStyleModel codeStyleModel)
         {
             CodeStyles.Add(codeStyleModel);
         }

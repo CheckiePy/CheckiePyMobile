@@ -23,20 +23,8 @@
                         <Button Text="Cancel"
                                 Command="{Binding CancelCommand}"/>
                         <Button Text="OK"
-                                Command="{Binding OkCommand}">
-                            <Button.Triggers>
-                                <MultiTrigger TargetType="Button">
-                                    <MultiTrigger.Conditions>
-                                        <BindingCondition Binding="{Binding Source={x:Reference repository}, Path=Text.Length}"
-                                                          Value="0"/>
-                                        <BindingCondition Binding="{Binding Source={x:Reference name}, Path=Text.Length}"
-                                                          Value="0"/>
-                                    </MultiTrigger.Conditions>
-                                    <Setter Property="IsEnabled"
-                                            Value="False"/>
-                                </MultiTrigger>
-                            </Button.Triggers>
-                        </Button>
+                                Command="{Binding OkCommand}"
+                                IsEnabled="{Binding EnableOk}"/>
                     </StackLayout>
                 </StackLayout>
             </Frame>

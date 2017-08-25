@@ -53,5 +53,10 @@ namespace CheckiePyMobile.Services
         {
             throw new System.NotImplementedException();
         }
+
+        public Task<ResponseModel<CodeStyleModel>> ReadCodeStyleAsync(int id)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

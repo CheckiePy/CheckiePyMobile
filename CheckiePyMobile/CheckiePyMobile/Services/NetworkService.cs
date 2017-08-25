@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -50,6 +49,11 @@ namespace CheckiePyMobile.Services
         public async Task<ResponseModel<CodeStyleModel>> CreateCodeStyleAsync(CodeStyleRequestModel request)
         {
             return await PostAsync<ResponseModel<CodeStyleModel>>("/code_style/create/", JsonConvert.SerializeObject(request));
+        }
+
+        public async Task<ResponseModel<CodeStyleModel>> ReadCodeStyleAsync(int id)
+        {
+            return await GetAsync<ResponseModel<CodeStyleModel>>($"/code_style/read/{id}/");
         }
 
         private async Task<T> GetAsync<T>(string url) where T : class 
