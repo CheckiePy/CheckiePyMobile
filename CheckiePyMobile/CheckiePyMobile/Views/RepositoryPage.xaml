@@ -17,12 +17,14 @@
                                     IsVisible="{Binding IsDisconnected}"
                                     HorizontalOptions="EndAndExpand"
                                     BackgroundColor="#14dcaf"
-                                    TextColor="White"/>
+                                    TextColor="White"
+                                    IsEnabled="False"/>
                             <Button Text="Disconnect"
                                     IsVisible="{Binding IsConnected}"
                                     HorizontalOptions="EndAndExpand"
                                     BackgroundColor="#d8d8d8"
-                                    TextColor="White"/>
+                                    TextColor="White"
+                                    IsEnabled="False"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

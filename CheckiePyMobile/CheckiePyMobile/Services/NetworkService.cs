@@ -14,7 +14,7 @@ namespace CheckiePyMobile.Services
     {
         private HttpClient _client;
 
-        private string _baseUrl = "http://acs.uplatform.ru/api";
+        private string _baseUrl = "https://checkiepy.com/api";
 
         private string _token;
 

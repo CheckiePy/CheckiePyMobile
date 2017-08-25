@@ -15,10 +15,9 @@
                                    VerticalOptions="CenterAndExpand"/>
                             <Button Text="Delete"
                                     BackgroundColor="#d8d8d8"
-                                    BorderColor="Black"
-                                    BorderWidth="2"
                                     TextColor="White"
-                                    HorizontalOptions="EndAndExpand"/>
+                                    HorizontalOptions="EndAndExpand"
+                                    IsEnabled="False"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
