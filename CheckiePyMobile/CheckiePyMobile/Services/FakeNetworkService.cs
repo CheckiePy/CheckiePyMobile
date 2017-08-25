@@ -48,5 +48,10 @@ namespace CheckiePyMobile.Services
                 },
             };
         }
+
+        public Task<ResponseModel<CodeStyleModel>> CreateCodeStyleAsync(CodeStyleRequestModel request)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

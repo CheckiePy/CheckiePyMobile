@@ -43,7 +43,11 @@ namespace CheckiePyMobile.ViewModels
         public async Task LoadRepositoriesAsync()
         {
             var repositories = await _networkService.GetRepositoriesAsync();
-            if (repositories.Detail == null)
+            if (repositories == null)
+            {
+                await _page.DisplayAlert("Error", "An error occurred during request execution", "Close");
+            }
+            else if (repositories.Detail == null)
             {
                 Repositories = new ObservableCollection<RepositoryModel>(repositories.Result);
             }

@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -6,6 +7,8 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using CheckiePyMobile.Models;
 using CheckiePyMobile.Services;
+using CheckiePyMobile.Views;
+using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 
 namespace CheckiePyMobile.ViewModels
@@ -43,12 +46,23 @@ namespace CheckiePyMobile.ViewModels
             _networkService = networkService;
 
             OpenCreateCodeStylePopupCommand = new Command(OpenCreateCodeStylePopup);
+
+            MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CreatedCodeStyle", Callback);
+        }
+
+        private void Callback(CreateCodeStylePopupViewModel createCodeStylePopupViewModel, CodeStyleModel codeStyleModel)
+        {
+            CodeStyles.Add(codeStyleModel);
         }
 
         public async Task LoadCodeStylesAsync()
         {
             var codeStyles = await _networkService.GetCodeStylesAsync();
-            if (codeStyles.Detail == null)
+            if (codeStyles == null)
+            {
+                await _page.DisplayAlert("Error", "An error occurred during request execution", "Close");
+            }
+            else if (codeStyles.Detail == null)
             {
                 CodeStyles = new ObservableCollection<CodeStyleModel>(codeStyles.Result);
             }
@@ -60,7 +74,7 @@ namespace CheckiePyMobile.ViewModels
 
         private async void OpenCreateCodeStylePopup()
         {
-            await _page.DisplayAlert("test", "test", "test");
+            await PopupNavigation.PushAsync(new CreateCodeStylePopupPage());
         }
     }
 }

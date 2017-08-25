@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="CheckiePyMobile.Views.CreateCodeStylePopupPage">
+    <pages:PopupPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Padding="20">
+            <Frame BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Enter repository URL and code style name"
+                           HorizontalTextAlignment="Center"/>
+                    <Label Text="Repository"
+                           TextColor="#14dcaf"/>
+                    <Entry x:Name="repository"
+                           Text="{Binding Repository}"/>
+                    <Label Text="Code style name"
+                           TextColor="#14dcaf"/>
+                    <Entry x:Name="name"
+                           Text="{Binding Name}"/>
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="EndAndExpand">
+                        <Button Text="Cancel"
+                                Command="{Binding CancelCommand}"/>
+                        <Button Text="OK"
+                                Command="{Binding OkCommand}">
+                            <Button.Triggers>
+                                <MultiTrigger TargetType="Button">
+                                    <MultiTrigger.Conditions>
+                                        <BindingCondition Binding="{Binding Source={x:Reference repository}, Path=Text.Length}"
+                                                          Value="0"/>
+                                        <BindingCondition Binding="{Binding Source={x:Reference name}, Path=Text.Length}"
+                                                          Value="0"/>
+                                    </MultiTrigger.Conditions>
+                                    <Setter Property="IsEnabled"
+                                            Value="False"/>
+                                </MultiTrigger>
+                            </Button.Triggers>
+                        </Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </pages:PopupPage.Content>
+</pages:PopupPage>

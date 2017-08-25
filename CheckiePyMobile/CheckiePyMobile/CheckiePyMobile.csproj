@@ -40,6 +40,7 @@
     </Compile>
     <Compile Include="Helpers\LoggingHandler.cs" />
     <Compile Include="Models\CodeStyleModel.cs" />
+    <Compile Include="Models\CodeStyleRequestModel.cs" />
     <Compile Include="Models\RepositoryModel.cs" />
     <Compile Include="Models\ResponseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -47,10 +48,14 @@
     <Compile Include="Services\INetworkService.cs" />
     <Compile Include="Services\NetworkService.cs" />
     <Compile Include="ViewModels\CodeStyleViewModel.cs" />
+    <Compile Include="ViewModels\CreateCodeStylePopupViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\RepositoryViewModel.cs" />
     <Compile Include="Views\CodeStylePage.xaml.cs">
       <DependentUpon>CodeStylePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateCodeStylePopupPage.xaml.cs">
+      <DependentUpon>CreateCodeStylePopupPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
@@ -131,7 +136,12 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Views\CreateCodeStylePopupPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\CodeStylePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
