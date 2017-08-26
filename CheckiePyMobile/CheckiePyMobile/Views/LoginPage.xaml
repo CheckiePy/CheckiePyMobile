@@ -9,16 +9,26 @@
                         HorizontalOptions="FillAndExpand"
                         VerticalOptions="CenterAndExpand"
                         Padding="20">
-                <StackLayout>
-                    <Image Source="icon_big_color.png"
-                           HorizontalOptions="CenterAndExpand"
-                           VerticalOptions="FillAndExpand"/>
-                    <Button Text="Log in with GitHub"
-                            Command="{Binding LoginCommand}"
-                            VerticalOptions="CenterAndExpand"
-                            Style="{StaticResource primaryButtonStyle}"
-                            HeightRequest="70"/>
-                </StackLayout>
+                <Frame BackgroundColor="White"
+                       HasShadow="True"
+                       CornerRadius="8">
+                    <StackLayout>
+                        <Label HorizontalTextAlignment="Center"
+                               Text="CheckiePy"
+                               FontSize="46"
+                               FontAttributes="Bold"
+                               TextColor="#14dcaf"/>
+                        <Image Source="icon_big_color.png"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="FillAndExpand"
+                               HeightRequest="150"/>
+                        <Button Text="Log in with GitHub"
+                                Command="{Binding LoginCommand}"
+                                VerticalOptions="CenterAndExpand"
+                                Style="{StaticResource primaryButtonStyle}"
+                                HeightRequest="70"/>
+                    </StackLayout>
+                </Frame>
             </ScrollView>
             <WebView x:Name="webView"
                      HeightRequest="1000"

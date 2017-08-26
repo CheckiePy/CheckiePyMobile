@@ -15,27 +15,33 @@
                 <ListView x:Name="listView"
                           ItemsSource="{Binding Repositories}"
                           ItemSelected="ListView_OnItemSelected"
-                          IsVisible="{Binding IsListViewVisible}">
+                          IsVisible="{Binding IsListViewVisible}"
+                          SeparatorVisibility="None"
+                          HasUnevenRows="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout Orientation="Horizontal"
-                                             Padding="10,0,10,0">
-                                    <Label Text="{Binding Name}"
-                                           Style="{StaticResource labelStyle}"
-                                           VerticalOptions="CenterAndExpand"/>
-                                    <Button Text="Connect"
-                                            Command="{Binding Source={x:Reference page}, Path=BindingContext.ConnectCommand}"
-                                            CommandParameter="{Binding .}"
-                                            IsVisible="{Binding IsDisconnected}"
-                                            HorizontalOptions="EndAndExpand"
-                                            Style="{StaticResource primaryButtonStyle}"/>
-                                    <Button Text="Disconnect"
-                                            Command="{Binding Source={x:Reference page}, Path=BindingContext.DisconnectCommand}"
-                                            CommandParameter="{Binding .}"
-                                            IsVisible="{Binding IsConnected}"
-                                            HorizontalOptions="EndAndExpand"
-                                            Style="{StaticResource secondaryButtonStyle}"/>
+                                <StackLayout Padding="5">
+                                    <Frame Style="{StaticResource frameStyle}"
+                                           Padding="10,5,10,5">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding Name}"
+                                                   Style="{StaticResource labelStyle}"
+                                                   VerticalOptions="CenterAndExpand"/>
+                                            <Button Text="Connect"
+                                                    Command="{Binding Source={x:Reference page}, Path=BindingContext.ConnectCommand}"
+                                                    CommandParameter="{Binding .}"
+                                                    IsVisible="{Binding IsDisconnected}"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    Style="{StaticResource primaryButtonStyle}"/>
+                                            <Button Text="Disconnect"
+                                                    Command="{Binding Source={x:Reference page}, Path=BindingContext.DisconnectCommand}"
+                                                    CommandParameter="{Binding .}"
+                                                    IsVisible="{Binding IsConnected}"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    Style="{StaticResource secondaryButtonStyle}"/>
+                                        </StackLayout>
+                                    </Frame>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

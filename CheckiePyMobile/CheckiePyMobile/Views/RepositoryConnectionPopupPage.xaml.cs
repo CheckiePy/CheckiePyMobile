@@ -1,4 +1,5 @@
-﻿using CheckiePyMobile.Models;
+﻿using System.Threading.Tasks;
+using CheckiePyMobile.Models;
 using CheckiePyMobile.Services;
 using CheckiePyMobile.ViewModels;
 using Rg.Plugins.Popup.Pages;
@@ -26,9 +27,8 @@ namespace CheckiePyMobile.Views
             this.picker.BindingContext = _codeStyleViewModel = new CodeStyleViewModel(this, NetworkService.Instance);
         }
 
-        protected override async void OnAppearing()
+        public async Task LoadCodeStylesAsync()
         {
-            base.OnAppearing();
             await _codeStyleViewModel.LoadCodeStylesAsync();
         }
     }

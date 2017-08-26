@@ -136,10 +136,12 @@ namespace CheckiePyMobile.ViewModels
                 Debug.WriteLine("Wrong connect repository method param");
                 return;
             }
-            await PopupNavigation.PushAsync(new RepositoryConnectionPopupPage
+            var repositoryConnectionPopupPage = new RepositoryConnectionPopupPage
             {
                 Repository = repository,
-            });
+            };
+            await repositoryConnectionPopupPage.LoadCodeStylesAsync();
+            await PopupNavigation.PushAsync(repositoryConnectionPopupPage);
         }
 
         private async void UpdateRepositories()

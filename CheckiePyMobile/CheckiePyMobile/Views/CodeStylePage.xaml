@@ -15,20 +15,26 @@
                 <ListView x:Name="listView"
                           ItemsSource="{Binding CodeStyles}"
                           ItemSelected="ListView_OnItemSelected"
-                          IsVisible="{Binding IsListViewVisible}">
+                          IsVisible="{Binding IsListViewVisible}"
+                          SeparatorVisibility="None"
+                          HasUnevenRows="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout Orientation="Horizontal"
-                                             Padding="10,0,10,0">
-                                    <Label Text="{Binding Name}"
-                                           Style="{StaticResource labelStyle}"
-                                           VerticalOptions="CenterAndExpand"/>
-                                    <Button Text="Delete"
-                                            Style="{StaticResource secondaryButtonStyle}"
-                                            HorizontalOptions="EndAndExpand"
-                                            Command="{Binding Source={x:Reference page}, Path=BindingContext.DeleteCommand}"
-                                            CommandParameter="{Binding .}"/>
+                                <StackLayout Padding="5">
+                                    <Frame Style="{StaticResource frameStyle}"
+                                           Padding="10,5,10,5">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding Name}"
+                                                   Style="{StaticResource labelStyle}"
+                                                   VerticalOptions="CenterAndExpand"/>
+                                            <Button Text="Delete"
+                                                    Style="{StaticResource secondaryButtonStyle}"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    Command="{Binding Source={x:Reference page}, Path=BindingContext.DeleteCommand}"
+                                                    CommandParameter="{Binding .}"/>
+                                        </StackLayout>
+                                    </Frame>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>
