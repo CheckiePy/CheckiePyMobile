@@ -43,6 +43,7 @@
     <Compile Include="Models\CodeStyleRequestModel.cs" />
     <Compile Include="Models\IdRequestModel.cs" />
     <Compile Include="Models\RepositoryModel.cs" />
+    <Compile Include="Models\RepositoryUpdateModel.cs" />
     <Compile Include="Models\ResponseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\FakeNetworkService.cs" />

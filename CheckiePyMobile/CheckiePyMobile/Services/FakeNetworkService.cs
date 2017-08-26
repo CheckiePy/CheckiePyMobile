@@ -63,5 +63,15 @@ namespace CheckiePyMobile.Services
         {
             throw new System.NotImplementedException();
         }
+
+        public Task<ResponseModel<string>> UpdateRepositoriesAsync()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<ResponseModel<RepositoryUpdateModel>> GetLastRepositoriesUpdate()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

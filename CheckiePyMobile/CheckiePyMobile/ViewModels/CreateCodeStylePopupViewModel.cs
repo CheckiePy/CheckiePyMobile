@@ -80,6 +80,13 @@ namespace CheckiePyMobile.ViewModels
                 {
                     await Task.Delay(100);
                     codeStyle = await _networkService.ReadCodeStyleAsync(codeStyle.Result.Id);
+                    if (codeStyle?.Result == null)
+                    {
+                        // In this case unknow if code style successfully created or not.
+                        // Go away silently.
+                        Debug.WriteLine("Failed code style calculation status request");
+                        return;
+                    }
                 }
                 if (codeStyle.Result.CalculationStatus == "F")
                 {
@@ -87,7 +94,7 @@ namespace CheckiePyMobile.ViewModels
                 }
                 else
                 {
-                    MessagingCenter.Send(this, "CreatedCodeStyle", codeStyle.Result);
+                    MessagingCenter.Send(this, "CodeStyleCreated", codeStyle.Result);
                 }
             }
             else

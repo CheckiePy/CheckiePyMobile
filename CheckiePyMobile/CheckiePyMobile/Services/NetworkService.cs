@@ -33,12 +33,10 @@ namespace CheckiePyMobile.Services
 
         protected NetworkService()
         {
-            _client = new HttpClient(new LoggingHandler(new HttpClientHandler()));
-        }
-
-        public async Task<ResponseModel<List<RepositoryModel>>> GetRepositoriesAsync()
-        {
-            return await GetAsync<ResponseModel<List<RepositoryModel>>>("/repository/list/");
+            _client = new HttpClient(new LoggingHandler(new HttpClientHandler()))
+            {
+                DefaultRequestHeaders = { IfModifiedSince = DateTimeOffset.Now },
+            };
         }
 
         public async Task<ResponseModel<List<CodeStyleModel>>> GetCodeStylesAsync()
@@ -59,6 +57,21 @@ namespace CheckiePyMobile.Services
         public async Task<ResponseModel<int>> DeleteCodeStyleAsync(IdRequestModel request)
         {
             return await PostAsync<ResponseModel<int>>("/code_style/delete/", JsonConvert.SerializeObject(request));
+        }
+
+        public async Task<ResponseModel<List<RepositoryModel>>> GetRepositoriesAsync()
+        {
+            return await GetAsync<ResponseModel<List<RepositoryModel>>>("/repository/list/");
+        }
+
+        public async Task<ResponseModel<string>> UpdateRepositoriesAsync()
+        {
+            return await PostAsync<ResponseModel<string>>("/repository/update/", string.Empty);
+        }
+
+        public async Task<ResponseModel<RepositoryUpdateModel>> GetLastRepositoriesUpdate()
+        {
+            return await GetAsync<ResponseModel<RepositoryUpdateModel>>("/repository/last_update/");
         }
 
         private async Task<T> GetAsync<T>(string url) where T : class 

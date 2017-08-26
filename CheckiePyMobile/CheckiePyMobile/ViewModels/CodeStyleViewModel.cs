@@ -49,7 +49,7 @@ namespace CheckiePyMobile.ViewModels
             OpenCreateCodeStylePopupCommand = new Command(OpenCreateCodeStylePopup);
             DeleteCommand = new Command(Delete);
 
-            MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CreatedCodeStyle", HandleCodeStyleCreation);
+            MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CodeStyleCreated", HandleCodeStyleCreation);
         }
 
         private async void Delete(object obj)
