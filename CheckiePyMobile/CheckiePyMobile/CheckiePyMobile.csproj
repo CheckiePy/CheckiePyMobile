@@ -39,6 +39,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers\LoggingHandler.cs" />
+    <Compile Include="Helpers\SecretKeeper.cs" />
     <Compile Include="Models\CodeStyleModel.cs" />
     <Compile Include="Models\CodeStyleRequestModel.cs" />
     <Compile Include="Models\ConnectionModel.cs" />
