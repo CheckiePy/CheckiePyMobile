@@ -8,7 +8,8 @@
             Title="CheckiePy">
     <TabbedPage.ToolbarItems>
         <ToolbarItem Order="Secondary"
-                     Text="Log out"/>
+                     Text="Log out"
+                     Clicked="Logout_OnClicked"/>
     </TabbedPage.ToolbarItems>
     <views:CodeStylePage/>
     <views:RepositoryPage/>

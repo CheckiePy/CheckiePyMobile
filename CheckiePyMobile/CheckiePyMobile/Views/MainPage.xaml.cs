@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using CheckiePyMobile.Services;
+using CheckiePyMobile.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +12,11 @@ namespace CheckiePyMobile.Views
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void Logout_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new LogoutPage());
         }
     }
 }
