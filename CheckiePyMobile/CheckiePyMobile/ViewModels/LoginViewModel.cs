@@ -24,7 +24,7 @@ namespace CheckiePyMobile.ViewModels
 
         public ICommand LoginCommand { get; private set; }
 
-        public bool IsLoginButtonVisible => _mode == LoginPageMode.Pending;
+        public bool IsScrollViewVisible => _mode == LoginPageMode.Pending;
 
         public bool IsWebViewVisible => _mode == LoginPageMode.Authentication;
 
@@ -44,7 +44,7 @@ namespace CheckiePyMobile.ViewModels
 
         private void UpdateUi()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsLoginButtonVisible)));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsScrollViewVisible)));
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsWebViewVisible)));
         }
 
