@@ -1,11 +1,15 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using CheckiePyMobile.Models;
 using CheckiePyMobile.Services;
+using CheckiePyMobile.Views;
+using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 
 namespace CheckiePyMobile.ViewModels
@@ -30,6 +34,10 @@ namespace CheckiePyMobile.ViewModels
 
         public ICommand UpdateRepositoriesCommand { get; private set; }
 
+        public ICommand ConnectCommand { get; private set; }
+
+        public ICommand DisconnectCommand { get; private set; }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
@@ -43,6 +51,80 @@ namespace CheckiePyMobile.ViewModels
             _networkService = networkService;
 
             UpdateRepositoriesCommand = new Command(UpdateRepositories);
+            ConnectCommand = new Command(Connect);
+            DisconnectCommand = new Command(Disconnect);
+
+            MessagingCenter.Subscribe<RepositoryConnectionPopupViewModel, Tuple<CodeStyleModel, RepositoryModel>>(this, "ConnectRepository", HandleRepositoryConnection);
+        }
+
+        private async void HandleRepositoryConnection(RepositoryConnectionPopupViewModel repositoryConnectionPopupViewModel, Tuple<CodeStyleModel, RepositoryModel> codeStyleRepositoryTuple)
+        {
+            var connection = await _networkService.ConnectRepositoryAsync(new ConnectionModel
+            {
+                CodeStyle = codeStyleRepositoryTuple.Item1.Id,
+                Repository = codeStyleRepositoryTuple.Item2.Id,
+            });
+            if (connection == null)
+            {
+                await _page.DisplayAlert("Error", "An error occurred during request execution", "Close");
+            }
+            else if (connection.Detail == null)
+            {
+                RedrawRepository(codeStyleRepositoryTuple.Item2, true, codeStyleRepositoryTuple.Item1.Name);
+            }
+            else
+            {
+                Debug.WriteLine(connection.Detail);
+            }
+        }
+
+        private async void Disconnect(object obj)
+        {
+            var repository = obj as RepositoryModel;
+            if (repository == null)
+            {
+                Debug.WriteLine("Wrong connect repository method param");
+                return;
+            }
+            var id = await _networkService.DisconnectRepositoryAsync(new IdRequestModel
+            {
+                Id = repository.Id,
+            });
+            if (id == null)
+            {
+                await _page.DisplayAlert("Error", "An error occurred during request execution", "Close");
+            }
+            else if (id.Detail == null)
+            {
+                RedrawRepository(repository, false, string.Empty);
+            }
+            else
+            {
+                Debug.WriteLine(id.Detail);
+            }
+        }
+
+        private void RedrawRepository(RepositoryModel repository, bool isConnected, string codeStyleName)
+        {
+            repository.IsConnected = isConnected;
+            repository.CodeStyleName = codeStyleName;
+            int i = Repositories.IndexOf(repository);
+            Repositories.Remove(repository);
+            Repositories.Insert(i, repository);
+        }
+
+        private async void Connect(object obj)
+        {
+            var repository = obj as RepositoryModel;
+            if (repository == null)
+            {
+                Debug.WriteLine("Wrong connect repository method param");
+                return;
+            }
+            await PopupNavigation.PushAsync(new RepositoryConnectionPopupPage
+            {
+                Repository = repository,
+            });
         }
 
         private async void UpdateRepositories()
@@ -84,7 +166,7 @@ namespace CheckiePyMobile.ViewModels
             }
             else
             {
-                Debug.WriteLine(status.Result);
+                Debug.WriteLine(status.Detail);
             }
         }
 
@@ -101,7 +183,7 @@ namespace CheckiePyMobile.ViewModels
             }
             else
             {
-                Debug.WriteLine(repositories.Result);
+                Debug.WriteLine(repositories.Detail);
             }
         }
     }

@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:forms="clr-namespace:FAB.Forms;assembly=FAB.Forms"
              x:Class="CheckiePyMobile.Views.RepositoryPage"
-             Title="Repositories">
+             Title="Repositories"
+             x:Name="page">
     <ContentPage.Content>
         <RelativeLayout>
             <ContentView RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
@@ -18,17 +19,19 @@
                                            TextColor="#868686"
                                            VerticalOptions="CenterAndExpand"/>
                                     <Button Text="Connect"
+                                            Command="{Binding Source={x:Reference page}, Path=BindingContext.ConnectCommand}"
+                                            CommandParameter="{Binding .}"
                                             IsVisible="{Binding IsDisconnected}"
                                             HorizontalOptions="EndAndExpand"
                                             BackgroundColor="#14dcaf"
-                                            TextColor="White"
-                                            IsEnabled="False"/>
+                                            TextColor="White"/>
                                     <Button Text="Disconnect"
+                                            Command="{Binding Source={x:Reference page}, Path=BindingContext.DisconnectCommand}"
+                                            CommandParameter="{Binding .}"
                                             IsVisible="{Binding IsConnected}"
                                             HorizontalOptions="EndAndExpand"
                                             BackgroundColor="#d8d8d8"
-                                            TextColor="White"
-                                            IsEnabled="False"/>
+                                            TextColor="White"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

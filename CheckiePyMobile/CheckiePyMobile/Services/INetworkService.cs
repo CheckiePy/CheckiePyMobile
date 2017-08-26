@@ -14,5 +14,7 @@ namespace CheckiePyMobile.Services
         Task<ResponseModel<int>> DeleteCodeStyleAsync(IdRequestModel request);
         Task<ResponseModel<string>> UpdateRepositoriesAsync();
         Task<ResponseModel<RepositoryUpdateModel>> GetLastRepositoriesUpdate();
+        Task<ResponseModel<ConnectionModel>> ConnectRepositoryAsync(ConnectionModel request);
+        Task<ResponseModel<int>> DisconnectRepositoryAsync(IdRequestModel request);
     }
 }

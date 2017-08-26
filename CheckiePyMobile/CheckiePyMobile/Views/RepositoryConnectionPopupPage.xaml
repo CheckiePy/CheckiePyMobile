@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="CheckiePyMobile.Views.RepositoryConnectionPopupPage"
+             x:Name="page">
+    <pages:PopupPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="FillAndExpand"
+                     Padding="20">
+            <Frame BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Select code style name"/>
+                    <!--<ListView x:Name="listView"
+                              ItemsSource="{Binding CodeStyles}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding Name}"
+                                               HorizontalOptions="StartAndExpand"/>
+                                        <Switch IsToggled="{Binding IsSelected}"
+                                                HorizontalOptions="EndAndExpand"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>-->
+                    <Picker x:Name="picker"
+                            ItemsSource="{Binding CodeStyles}"
+                            SelectedItem="{Binding Source={x:Reference page}, Path=BindingContext.CodeStyle}"/>
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="EndAndExpand">
+                        <Button Text="Cancel"
+                                Command="{Binding CancelCommand}"/>
+                        <Button Text="OK"
+                                Command="{Binding OkCommand}">
+                            <Button.Triggers>
+                                <DataTrigger TargetType="Button"
+                                             Binding="{Binding Source={x:Reference picker}, Path=SelectedIndex}"
+                                             Value="-1">
+                                    <Setter Property="IsEnabled"
+                                            Value="False"/>
+                                </DataTrigger>
+                            </Button.Triggers>
+                        </Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </pages:PopupPage.Content>
+</pages:PopupPage>

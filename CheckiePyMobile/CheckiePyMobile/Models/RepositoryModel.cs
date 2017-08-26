@@ -11,5 +11,10 @@ namespace CheckiePyMobile.Models
         public bool IsDisconnected => !IsConnected;
         [JsonProperty(PropertyName = "code_style_name")]
         public string CodeStyleName { get; set; }
+
+        public override string ToString()
+        {
+            return Name ?? base.ToString();
+        }
     }
 }

@@ -74,6 +74,16 @@ namespace CheckiePyMobile.Services
             return await GetAsync<ResponseModel<RepositoryUpdateModel>>("/repository/last_update/");
         }
 
+        public async Task<ResponseModel<ConnectionModel>> ConnectRepositoryAsync(ConnectionModel request)
+        {
+            return await PostAsync<ResponseModel<ConnectionModel>>("/repository/connect/", JsonConvert.SerializeObject(request));
+        }
+
+        public async Task<ResponseModel<int>> DisconnectRepositoryAsync(IdRequestModel request)
+        {
+            return await PostAsync<ResponseModel<int>>("/repository/disconnect/", JsonConvert.SerializeObject(request));
+        }
+
         private async Task<T> GetAsync<T>(string url) where T : class 
         {
             try

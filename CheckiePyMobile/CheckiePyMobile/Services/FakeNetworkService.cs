@@ -73,5 +73,15 @@ namespace CheckiePyMobile.Services
         {
             throw new System.NotImplementedException();
         }
+
+        public Task<ResponseModel<ConnectionModel>> ConnectRepositoryAsync(ConnectionModel request)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<ResponseModel<int>> DisconnectRepositoryAsync(IdRequestModel request)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
