@@ -40,6 +40,8 @@ namespace CheckiePyMobile.ViewModels
 
         public ICommand DisconnectCommand { get; private set; }
 
+        public ICommand RefreshCommand { get; private set; }
+
         public bool IsLoaderVisible
         {
             get { return _isLoaderVisible; }
@@ -47,11 +49,8 @@ namespace CheckiePyMobile.ViewModels
             {
                 _isLoaderVisible = value;
                 OnPropertyChanged();
-                OnPropertyChanged(nameof(IsListViewVisible));
             }
         }
-
-        public bool IsListViewVisible => !IsLoaderVisible;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -68,6 +67,7 @@ namespace CheckiePyMobile.ViewModels
             UpdateRepositoriesCommand = new Command(UpdateRepositories);
             ConnectCommand = new Command(Connect);
             DisconnectCommand = new Command(Disconnect);
+            RefreshCommand = new Command(async () => await LoadRepositoriesAsync());
 
             MessagingCenter.Subscribe<RepositoryConnectionPopupViewModel, Tuple<CodeStyleModel, RepositoryModel>>(this, "ConnectRepository", HandleRepositoryConnection);
         }
@@ -134,7 +134,7 @@ namespace CheckiePyMobile.ViewModels
             {
                 Repositories.Add(repository);
                 Debug.WriteLine(e);
-            } 
+            }
         }
 
         private async void Connect(object obj)
@@ -155,6 +155,7 @@ namespace CheckiePyMobile.ViewModels
 
         private async void UpdateRepositories()
         {
+            IsLoaderVisible = true;
             var status = await _networkService.UpdateRepositoriesAsync();
             if (status == null)
             {
@@ -178,6 +179,7 @@ namespace CheckiePyMobile.ViewModels
                         // In this case unknow if repositories successfully updated or not.
                         // Go away silently.
                         Debug.WriteLine("Failed repositories update status request");
+                        IsLoaderVisible = false;
                         return;
                     }
                 }
@@ -194,6 +196,7 @@ namespace CheckiePyMobile.ViewModels
             {
                 Debug.WriteLine(status.Detail);
             }
+            IsLoaderVisible = false;
         }
 
         public async Task LoadRepositoriesAsync()

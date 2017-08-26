@@ -26,6 +26,8 @@ namespace CheckiePyMobile.ViewModels
 
         public ICommand DeleteCommand { get; private set; }
 
+        public ICommand RefreshCommand { get; private set; }
+
         public bool IsLoaderVisible
         {
             get { return _isLoaderVisible; }
@@ -33,11 +35,8 @@ namespace CheckiePyMobile.ViewModels
             {
                 _isLoaderVisible = value;
                 OnPropertyChanged();
-                OnPropertyChanged(nameof(IsListViewVisible));
             }
         }
-
-        public bool IsListViewVisible => !IsLoaderVisible;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -63,6 +62,7 @@ namespace CheckiePyMobile.ViewModels
 
             OpenCreateCodeStylePopupCommand = new Command(OpenCreateCodeStylePopup);
             DeleteCommand = new Command(Delete);
+            RefreshCommand = new Command(async () => await LoadCodeStylesAsync());
 
             MessagingCenter.Subscribe<CreateCodeStylePopupViewModel, CodeStyleModel>(this, "CodeStyleCreated", HandleCodeStyleCreation);
         }

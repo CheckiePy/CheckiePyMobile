@@ -9,15 +9,14 @@
         <RelativeLayout>
             <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}">
-                <ActivityIndicator IsRunning="True"
-                                   IsVisible="{Binding IsLoaderVisible}"
-                                   VerticalOptions="CenterAndExpand"/>
                 <ListView x:Name="listView"
                           ItemsSource="{Binding Repositories}"
                           ItemSelected="ListView_OnItemSelected"
-                          IsVisible="{Binding IsListViewVisible}"
                           SeparatorVisibility="None"
-                          HasUnevenRows="True">
+                          HasUnevenRows="True"
+                          IsPullToRefreshEnabled="True"
+                          RefreshCommand="{Binding RefreshCommand}"
+                          IsRefreshing="{Binding IsLoaderVisible}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
