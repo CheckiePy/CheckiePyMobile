@@ -7,42 +7,44 @@
              x:Name="page">
     <ContentPage.Content>
         <RelativeLayout>
-            <ContentView RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+            <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}">
+                <ActivityIndicator IsRunning="True"
+                                   IsVisible="{Binding IsLoaderVisible}"
+                                   VerticalOptions="CenterAndExpand"/>
                 <ListView x:Name="listView"
-                          ItemsSource="{Binding Repositories}">
+                          ItemsSource="{Binding Repositories}"
+                          ItemSelected="ListView_OnItemSelected"
+                          IsVisible="{Binding IsListViewVisible}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout Orientation="Horizontal">
+                                <StackLayout Orientation="Horizontal"
+                                             Padding="10,0,10,0">
                                     <Label Text="{Binding Name}"
-                                           TextColor="#868686"
+                                           Style="{StaticResource labelStyle}"
                                            VerticalOptions="CenterAndExpand"/>
                                     <Button Text="Connect"
                                             Command="{Binding Source={x:Reference page}, Path=BindingContext.ConnectCommand}"
                                             CommandParameter="{Binding .}"
                                             IsVisible="{Binding IsDisconnected}"
                                             HorizontalOptions="EndAndExpand"
-                                            BackgroundColor="#14dcaf"
-                                            TextColor="White"/>
+                                            Style="{StaticResource primaryButtonStyle}"/>
                                     <Button Text="Disconnect"
                                             Command="{Binding Source={x:Reference page}, Path=BindingContext.DisconnectCommand}"
                                             CommandParameter="{Binding .}"
                                             IsVisible="{Binding IsConnected}"
                                             HorizontalOptions="EndAndExpand"
-                                            BackgroundColor="#d8d8d8"
-                                            TextColor="White"/>
+                                            Style="{StaticResource secondaryButtonStyle}"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-            </ContentView>
-            <forms:FloatingActionButton Size="Normal"
+            </StackLayout>
+            <forms:FloatingActionButton Style="{StaticResource fabStyle}"
                                         Command="{Binding UpdateRepositoriesCommand}"
                                         Source="ic_refresh_white_36dp.png"
-                                        NormalColor="#14dcaf"
-                                        RippleColor="White"
                                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-75}"
                                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-75}" />
         </RelativeLayout>

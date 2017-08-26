@@ -7,20 +7,25 @@
              x:Name="page">
     <ContentPage.Content>
         <RelativeLayout>
-            <ContentView RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+            <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}">
+                <ActivityIndicator IsRunning="True"
+                                   IsVisible="{Binding IsLoaderVisible}"
+                                   VerticalOptions="CenterAndExpand"/>
                 <ListView x:Name="listView"
-                          ItemsSource="{Binding CodeStyles}">
+                          ItemsSource="{Binding CodeStyles}"
+                          ItemSelected="ListView_OnItemSelected"
+                          IsVisible="{Binding IsListViewVisible}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout Orientation="Horizontal">
+                                <StackLayout Orientation="Horizontal"
+                                             Padding="10,0,10,0">
                                     <Label Text="{Binding Name}"
-                                           TextColor="#868686"
+                                           Style="{StaticResource labelStyle}"
                                            VerticalOptions="CenterAndExpand"/>
                                     <Button Text="Delete"
-                                            BackgroundColor="#d8d8d8"
-                                            TextColor="White"
+                                            Style="{StaticResource secondaryButtonStyle}"
                                             HorizontalOptions="EndAndExpand"
                                             Command="{Binding Source={x:Reference page}, Path=BindingContext.DeleteCommand}"
                                             CommandParameter="{Binding .}"/>
@@ -29,12 +34,10 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-            </ContentView>
-            <forms:FloatingActionButton Size="Normal"
+            </StackLayout>
+            <forms:FloatingActionButton Style="{StaticResource fabStyle}"
                                         Command="{Binding OpenCreateCodeStylePopupCommand}"
                                         Source="ic_add_white_36dp.png"
-                                        NormalColor="#14dcaf"
-                                        RippleColor="White"
                                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-75}"
                                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-75}" />
         </RelativeLayout>

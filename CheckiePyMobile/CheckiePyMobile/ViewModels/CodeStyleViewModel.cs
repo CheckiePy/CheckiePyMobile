@@ -20,9 +20,24 @@ namespace CheckiePyMobile.ViewModels
 
         private ObservableCollection<CodeStyleModel> _codeStyles;
 
+        private bool _isLoaderVisible;
+
         public ICommand OpenCreateCodeStylePopupCommand { get; private set; }
 
         public ICommand DeleteCommand { get; private set; }
+
+        public bool IsLoaderVisible
+        {
+            get { return _isLoaderVisible; }
+            set
+            {
+                _isLoaderVisible = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(IsListViewVisible));
+            }
+        }
+
+        public bool IsListViewVisible => !IsLoaderVisible;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -82,6 +97,7 @@ namespace CheckiePyMobile.ViewModels
 
         public async Task LoadCodeStylesAsync()
         {
+            IsLoaderVisible = true;
             var codeStyles = await _networkService.GetCodeStylesAsync();
             if (codeStyles == null)
             {
@@ -95,6 +111,7 @@ namespace CheckiePyMobile.ViewModels
             {
                 Debug.WriteLine(codeStyles.Detail);
             }
+            IsLoaderVisible = false;
         }
 
         private async void OpenCreateCodeStylePopup()

@@ -22,6 +22,8 @@ namespace CheckiePyMobile.ViewModels
 
         private ObservableCollection<RepositoryModel> _repositories;
 
+        private bool _isLoaderVisible;
+
         public ObservableCollection<RepositoryModel> Repositories
         {
             get { return _repositories; }
@@ -37,6 +39,19 @@ namespace CheckiePyMobile.ViewModels
         public ICommand ConnectCommand { get; private set; }
 
         public ICommand DisconnectCommand { get; private set; }
+
+        public bool IsLoaderVisible
+        {
+            get { return _isLoaderVisible; }
+            set
+            {
+                _isLoaderVisible = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(IsListViewVisible));
+            }
+        }
+
+        public bool IsListViewVisible => !IsLoaderVisible;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -172,6 +187,7 @@ namespace CheckiePyMobile.ViewModels
 
         public async Task LoadRepositoriesAsync()
         {
+            IsLoaderVisible = true;
             var repositories = await _networkService.GetRepositoriesAsync();
             if (repositories == null)
             {
@@ -185,6 +201,7 @@ namespace CheckiePyMobile.ViewModels
             {
                 Debug.WriteLine(repositories.Detail);
             }
+            IsLoaderVisible = false;
         }
     }
 }
