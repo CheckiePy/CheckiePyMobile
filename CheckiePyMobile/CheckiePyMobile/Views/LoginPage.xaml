@@ -34,7 +34,7 @@
                      HeightRequest="1000"
                      WidthRequest="1000"
                      IsVisible="{Binding IsWebViewVisible}"
-                     Source="http://checkiepy.com/login/github/"/>
+                     Source="{Binding Url}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -20,6 +20,8 @@ namespace CheckiePyMobile.ViewModels
 
         private INetworkService _networkService;
 
+        private WebViewSource _url;
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         public ICommand LoginCommand { get; private set; }
@@ -27,6 +29,16 @@ namespace CheckiePyMobile.ViewModels
         public bool IsScrollViewVisible => _mode == LoginPageMode.Pending;
 
         public bool IsWebViewVisible => _mode == LoginPageMode.Authentication;
+
+        public WebViewSource Url
+        {
+            get { return _url; }
+            set
+            {
+                _url = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Url)));
+            }
+        }
 
         public LoginViewModel(Page page, INetworkService networkService)
         {
@@ -39,6 +51,7 @@ namespace CheckiePyMobile.ViewModels
         private void Authenticate()
         {
             _mode = LoginPageMode.Authentication;
+            Url = new UrlWebViewSource { Url = "https://checkiepy.com/login/github/" };
             UpdateUi();
         }
 
