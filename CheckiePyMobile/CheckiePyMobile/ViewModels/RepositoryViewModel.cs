@@ -125,7 +125,16 @@ namespace CheckiePyMobile.ViewModels
             repository.CodeStyleName = codeStyleName;
             int i = Repositories.IndexOf(repository);
             Repositories.Remove(repository);
-            Repositories.Insert(i, repository);
+            // TODO: figure out issue
+            try
+            {
+                Repositories.Insert(i, repository);
+            }
+            catch (Exception e)
+            {
+                Repositories.Add(repository);
+                Debug.WriteLine(e);
+            } 
         }
 
         private async void Connect(object obj)
