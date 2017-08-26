@@ -10,30 +10,20 @@
                      Padding="20">
             <Frame BackgroundColor="White">
                 <StackLayout>
-                    <Label Text="Select code style name"/>
-                    <!--<ListView x:Name="listView"
-                              ItemsSource="{Binding CodeStyles}">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-                                    <StackLayout Orientation="Horizontal">
-                                        <Label Text="{Binding Name}"
-                                               HorizontalOptions="StartAndExpand"/>
-                                        <Switch IsToggled="{Binding IsSelected}"
-                                                HorizontalOptions="EndAndExpand"/>
-                                    </StackLayout>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>-->
+                    <Label Text="Select code style name"
+                           HorizontalTextAlignment="Center"
+                           Style="{StaticResource labelStyle}"/>
                     <Picker x:Name="picker"
                             ItemsSource="{Binding CodeStyles}"
+                            Style="{StaticResource pickerStyle}"
                             SelectedItem="{Binding Source={x:Reference page}, Path=BindingContext.CodeStyle}"/>
                     <StackLayout Orientation="Horizontal"
                                  HorizontalOptions="EndAndExpand">
                         <Button Text="Cancel"
+                                Style="{StaticResource secondaryButtonStyle}"
                                 Command="{Binding CancelCommand}"/>
                         <Button Text="OK"
+                                Style="{StaticResource primaryButtonStyle}"
                                 Command="{Binding OkCommand}">
                             <Button.Triggers>
                                 <DataTrigger TargetType="Button"

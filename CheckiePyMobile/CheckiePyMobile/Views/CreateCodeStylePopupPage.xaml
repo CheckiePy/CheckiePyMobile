@@ -9,22 +9,27 @@
             <Frame BackgroundColor="White">
                 <StackLayout>
                     <Label Text="Enter repository URL and code style name"
-                           HorizontalTextAlignment="Center"/>
+                           HorizontalTextAlignment="Center"
+                           Style="{StaticResource labelStyle}"/>
                     <Label Text="Repository"
-                           TextColor="#14dcaf"/>
+                           Style="{StaticResource formLabelStyle}"/>
                     <Entry x:Name="repository"
-                           Text="{Binding Repository}"/>
-                    <Label Text="Code style name"
-                           TextColor="#14dcaf"/>
+                           Text="{Binding Repository}"
+                           Style="{StaticResource entryStyle}"/>
+                    <Label Text="Code style"
+                           Style="{StaticResource formLabelStyle}"/>
                     <Entry x:Name="name"
-                           Text="{Binding Name}"/>
+                           Text="{Binding Name}"
+                           Style="{StaticResource entryStyle}"/>
                     <StackLayout Orientation="Horizontal"
                                  HorizontalOptions="EndAndExpand">
                         <Button Text="Cancel"
-                                Command="{Binding CancelCommand}"/>
+                                Command="{Binding CancelCommand}"
+                                Style="{StaticResource secondaryButtonStyle}"/>
                         <Button Text="OK"
                                 Command="{Binding OkCommand}"
-                                IsEnabled="{Binding EnableOk}"/>
+                                IsEnabled="{Binding EnableOk}"
+                                Style="{StaticResource primaryButtonStyle}"/>
                     </StackLayout>
                 </StackLayout>
             </Frame>
