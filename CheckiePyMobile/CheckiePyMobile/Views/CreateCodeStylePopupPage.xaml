@@ -8,19 +8,21 @@
                      Padding="20">
             <Frame BackgroundColor="White">
                 <StackLayout>
-                    <Label Text="Enter repository URL and code style name"
+                    <Label Text="Enter repository clone address and code style name"
                            HorizontalTextAlignment="Center"
                            Style="{StaticResource labelStyle}"/>
                     <Label Text="Repository"
                            Style="{StaticResource formLabelStyle}"/>
                     <Entry x:Name="repository"
                            Text="{Binding Repository}"
-                           Style="{StaticResource entryStyle}"/>
+                           Style="{StaticResource entryStyle}"
+                           Placeholder="https://github.com/acsproj/acsbackend.git"/>
                     <Label Text="Code style"
                            Style="{StaticResource formLabelStyle}"/>
                     <Entry x:Name="name"
                            Text="{Binding Name}"
-                           Style="{StaticResource entryStyle}"/>
+                           Style="{StaticResource entryStyle}"
+                           Placeholder="backend"/>
                     <StackLayout Orientation="Horizontal"
                                  HorizontalOptions="EndAndExpand">
                         <Button Text="Cancel"

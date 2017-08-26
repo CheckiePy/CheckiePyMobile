@@ -149,8 +149,15 @@ namespace CheckiePyMobile.ViewModels
             {
                 Repository = repository,
             };
-            await repositoryConnectionPopupPage.LoadCodeStylesAsync();
-            await PopupNavigation.PushAsync(repositoryConnectionPopupPage);
+            var hasCodeStyles = await repositoryConnectionPopupPage.LoadCodeStylesAsync();
+            if (hasCodeStyles)
+            {
+                await PopupNavigation.PushAsync(repositoryConnectionPopupPage);
+            }
+            else
+            {
+                await _page.DisplayAlert("You have no code styles", "You need at least one code style to create connection", "OK");
+            }
         }
 
         private async void UpdateRepositories()

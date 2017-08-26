@@ -90,7 +90,7 @@ namespace CheckiePyMobile.ViewModels
                 }
                 if (codeStyle.Result.CalculationStatus == "F")
                 {
-                    await _page.DisplayAlert("Error", "Can't create code style. Incorrect input is possible", "OK");
+                    await _page.DisplayAlert("Error", "Can't create code style. Please, check if you type in repository clone address in following way: https://github.com/acsproj/acsbackend.git", "OK");
                 }
                 else
                 {

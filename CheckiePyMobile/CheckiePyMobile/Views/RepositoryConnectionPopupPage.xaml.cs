@@ -27,9 +27,10 @@ namespace CheckiePyMobile.Views
             this.picker.BindingContext = _codeStyleViewModel = new CodeStyleViewModel(this, NetworkService.Instance);
         }
 
-        public async Task LoadCodeStylesAsync()
+        public async Task<bool> LoadCodeStylesAsync()
         {
             await _codeStyleViewModel.LoadCodeStylesAsync();
+            return _codeStyleViewModel.CodeStyles != null && _codeStyleViewModel.CodeStyles.Count > 0;
         }
     }
 }

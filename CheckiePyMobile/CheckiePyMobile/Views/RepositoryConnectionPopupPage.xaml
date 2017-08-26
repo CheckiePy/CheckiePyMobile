@@ -22,18 +22,14 @@
                         <Button Text="Cancel"
                                 Style="{StaticResource secondaryButtonStyle}"
                                 Command="{Binding CancelCommand}"/>
+                        
+                        <!--
+                        -->
                         <Button Text="OK"
+                                Command="{Binding OkCommand}"
+                                IsEnabled="{Binding IsOkEnabled}"
                                 Style="{StaticResource primaryButtonStyle}"
-                                Command="{Binding OkCommand}">
-                            <Button.Triggers>
-                                <DataTrigger TargetType="Button"
-                                             Binding="{Binding Source={x:Reference picker}, Path=SelectedIndex}"
-                                             Value="-1">
-                                    <Setter Property="IsEnabled"
-                                            Value="False"/>
-                                </DataTrigger>
-                            </Button.Triggers>
-                        </Button>
+                                />
                     </StackLayout>
                 </StackLayout>
             </Frame>

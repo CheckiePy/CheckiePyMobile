@@ -42,6 +42,8 @@
                    TargetType="Entry">
                 <Setter Property="TextColor"
                         Value="#868686"/>
+                <Setter Property="PlaceholderColor"
+                        Value="#cfcfcf"/>
             </Style>
             <Style x:Key="pickerStyle"
                    TargetType="Picker">
