@@ -8,7 +8,31 @@ Android client for the [backend](https://github.com/CheckiePy/CheckiePyBackend).
 
 * Xamarin
 
-### 2. Screenshots
+### 2. Build and run
+
+##### 2.1. Open the solution
+
+Open file [CheckiePyMobile.sln](CheckiePyMobile.sln) with Visual Studio or Xamarin Studio and run build.
+
+##### 2.2. Setup secrets
+
+Create in [CheckiePyMobile/CheckiePyMobile/Helpers](CheckiePyMobile/CheckiePyMobile/Helpers) folder `SecretKeeper.cs` file that contents:
+
+```csharp
+using System;
+namespace CheckiePyMobile.Helpers
+{
+    public static class SecretKeeper
+    {
+        public static string MOBILE_CENTER_API_KEY = "";
+    }
+}
+
+```
+
+Here you can set a key from [AppCenter](https://appcenter.ms/) to get app usage analytics.
+
+### 3. Screenshots
 
 | Login | Repositories | New code style |
 | ----- | ----- | ----- |

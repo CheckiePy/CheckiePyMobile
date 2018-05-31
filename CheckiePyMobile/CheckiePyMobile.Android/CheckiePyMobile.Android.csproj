@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -178,7 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CheckiePyMobile\CheckiePyMobile.csproj">
-      <Project>{1361464d-4e4e-4752-ba73-62b41b1e52a3}</Project>
+      <Project>{FB2B1695-4E46-4E62-8C28-8E20AB14A4D6}</Project>
       <Name>CheckiePyMobile</Name>
     </ProjectReference>
   </ItemGroup>
