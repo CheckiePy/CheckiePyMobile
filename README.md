@@ -16,7 +16,7 @@ Open file [CheckiePyMobile.sln](CheckiePyMobile.sln) with Visual Studio or Xamar
 
 ##### 2.2. Setup secrets
 
-Create in [CheckiePyMobile/CheckiePyMobile/Helpers](CheckiePyMobile/CheckiePyMobile/Helpers) folder `SecretKeeper.cs` file that contents:
+Create in folder [CheckiePyMobile/CheckiePyMobile/Helpers](CheckiePyMobile/CheckiePyMobile/Helpers) file `SecretKeeper.cs` that contents:
 
 ```csharp
 using System;
